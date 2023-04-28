@@ -1,0 +1,1106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>ELEMENTERNA AF ARITHMETIkEN OCH PLANIMETRIEN</title>
+            <author>P. E. Cronhielm</author>
+            <principal>Francisco Ferer</principal>
+            <principal>Esther Pocock</principal>
+            <respStmt>
+               <resp>Scaning, OCR, text correction,encoding, TEI, XML, HTML and publication </resp>
+               <name>Francisco Ferer</name>
+               <name>Esther Pocock</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>First digital edition </edition>
+         </editionStmt>
+         <!-- enter size of file once finished -->
+         <extent>mb</extent>
+         <publicationStmt>
+            <publisher>Schmidt &amp; Comp.</publisher>
+            <date>1843</date>
+            <pubPlace>
+               <address>
+                  <settlement>Christianstad</settlement>
+                  <country>Sweden</country>
+               </address>
+            </pubPlace>
+            <!-- I'm not sure if this goes here it goes in the source.Desc  -->
+            <distributor>Chalmers Tekniska Högskolas Bibliotek</distributor>
+            <availability status="free">
+               <p> In the public domain </p>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note>TEI encoding language: English</note>
+            <note>Transcribed as part a University assignment, on this first edition only the first
+               chapter is included, with scope to digitised the whle book at a later stage.</note>
+
+         </notesStmt>
+         <sourceDesc>
+            <biblStruct>
+               <analytic>
+                  <title>Chapter One</title>
+                  <author>P.E Cronhielm</author>
+               </analytic>
+               <monogr>
+                  <imprint>
+                     <distributor>Chalmers University Library</distributor>
+                     <pubPlace>Christianstad</pubPlace>
+                     <!-- I don't know how to name the apendixes at the end of the book-->
+                     <biblScope unit="page" n="84">Eighty four pages</biblScope>
+                     <biblScope unit="part">Four foulding out apendixes</biblScope>
+                  </imprint>
+               </monogr>
+               <relatedItem>
+                  <bibl>The source of this digital resource is the only known copy deposit at
+                        <distributor>Chalmers University Librar </distributor></bibl>
+               </relatedItem>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This is a digitisaiton project for the Digitising Cultural Heritage Material course
+               as part of the Masters in Digital Libraries from University of Borås, Sweden.</p>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>Apparent errors on the OCR output have been corrected but not marked in the
+                  trascribed text</p>
+            </correction>
+            <normalization>
+               <p>Some mathematial expressions have been trascribed as text although tring to
+                  preserve the original layout</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <placeName>Christianstad</placeName>
+            <date>1843</date>
+         </creation>
+         <handNotes>
+            <handNote xml:id="FF">Orinal text writen in old Swedish.</handNote>
+         </handNotes>
+         <langUsage>
+            <language ident="sw">Swedish</language>
+         </langUsage>
+         <!-- find out the Dewey classification and insert a textClass amd classcode-->
+         <textClass>
+            <classCode scheme="https://www.librarything.com/mds/513.3">513.3</classCode>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2023-04-01">
+            <persName>Francisco Ferrer &amp; Esther Pocock</persName> created header.</change>
+         <change when="1843">
+            <persName>P. E. Cronhielm</persName>revised and dded first edition of<title>ELEMENTERNA
+               AF ARITHMETIkEN OCH PLANIMETRIEN</title>book.</change>
+      </revisionDesc>
+
+
+   </teiHeader>
+
+   <text xml:lang="sv">
+      <front>
+         <note n="library_reference_label" place="back_of_front_cover">Chalmers Tekniska Högskola
+            Bibliotek V258</note>
+
+         <div type="titlePage">
+
+            <head>
+               <title>ELEMENTERNA<lb/> AF<lb/> ARITHMETIKEN OCH PLANIMETRIEN,<lb/>
+               </title>
+            </head>
+            <byline>UTGIFNE AF</byline>
+            <lb/>
+            <docAuthor>
+               <persName>
+                  <forename>P.</forename>
+                  <forename>E.</forename>
+                  <surname>Cronhielm,</surname><lb/>
+                  <roleName>MAYOR VID KONGL, <placeName>WESTGÖTA DALS
+                  REGITE</placeName></roleName><lb/>
+               </persName>
+            </docAuthor>
+            <p>
+               <note>L. K. W. A.</note>></p>
+            <lb/>
+            <p>Andra Upplagan</p>
+            <lb/>
+            <p>Öfversedd och tillök.</p>
+            <lb/>
+            <p><placeName>CHRISTIANSTAD.</placeName></p>
+            <lb/>
+            <p>Trickt på L. Littorins förlag hos Schmidt &amp; Comp.</p>
+            <lb/>
+            <p>
+               <date>1834</date></p>
+            <p>CHALMERS TECKISKA HÖGSKOLA BIBLIOTEK <stamp>seal</stamp>
+               <locus>bottom left corner</locus></p>
+            <p>CHALMERSKA Slöide SEDAN <stamp>seal</stamp>
+               <locus>bottom right corner</locus></p>
+            <!-- I think this is what the hand written text says, hard to read -->
+            <p><handShift medium="black ink writen with fountain pen"/>t <note type="handwritting"
+                  >hand written</note> Chalmerska Slöide Skola Exemplar N 81 <locus>on the top the
+                  title page</locus>
+            </p>
+
+         </div>
+      </front>
+
+      <body>
+         <!-- blank page -->
+         <pb/>
+
+
+
+         <div type="prose" rend="justify">
+            <p>
+               <hi rend="caps">ANMÄALA</hi> Behofvet att bringa i samband de mathe-<lb/> matiska
+               kurser, som följas vid Artilleriets<lb/> undervisningsverk, har gifvit anledning till
+               <lb/> utgifvande af detta arbete. Man har der- <lb/> före i afseende på ordningen, så
+               vidt min- <lb/> dre fordringar och inskrånktare lärotid med- <lb/> gifvit, föjl
+               Professor Harfvefeldts för <lb/> undervisningen vid det högre Artilleri-Lä- <lb/>
+               roverket antagna arbete. För öfrigt har <lb/> man, i afseende pä åmnenas behandling,
+               <lb/> vid utarbetandet af den Arithmetiska afdel- <lb/> ningen, hufvudsakligen haft
+               till ledning sist- <lb/> nämde verk samt Lacroix's och Bezout's. <lb/> Planinmetrien
+               åter är, med några andringar <lb/> fårorsakade af proportions-lärans olika be- <lb/>
+               handling, en del utlenningar och några <lb/> tillägg, helt och hållet Professor
+               Harfve- <lb/> feldts. <lb/>
+               <hi rend="indent">Man vågar får öfrigt tro att arbetet,</hi><lb/> ehuru egentligen
+               amnalt för en viss klass <lb/> af lärande, icke skall sakna användbarhet <lb/> vid
+               undervisningen i allmänhet. Det fram- <lb/> ståller på ett kort och, som man vill
+               hop- <lb/> pas,låttfattligt sätt, Arithmetikens teori, åt <lb/> hvilken man vid vid
+               vära undervisningsverk <lb/> hittills icke alltid torde lemnal tillräcklig <lb/>
+               uppmärksamhet, men som likväl är af stör- <lb/> sta nytta, icke allenast för den, som
+               vill <lb/> vinna en grundligare insigt i den egentliga <lb/> Arithmetiken, utan äfven
+               såsom en tjenlig <lb/> förberedelse till Algebrans studerande. Pla- <lb/>
+            </p>
+
+
+         </div>
+         <pb/>
+         <div type="prose" rend="justify">
+            <p>nimetrien år utarbetad efter de nyaste och <lb/> mest berömde författares åsigter,
+               och inne- <lb/> håller dessutom nåra exempel afdet prak- <lb/> tiska användandet. <lb/>
+               <hi rend="indent">Det undfalter troligen icke uppmärk-</hi><lb/> samheten, att så väl
+               proportions-läran som <lb/> dess anvåndande på Planimetrien, i detta <lb/> arbete
+               endast förutsåtter sådana proportio- <lb/> ner, som kunna uttryckas med numror. <lb/>
+               Ehuru detta behandlingssätt ej år generelt, <lb/> torde det likväl vara det enda
+               tjenliga för, <lb/> dem, som i vetenskapen äro rent af nybör-<lb/> jare, och då det
+               äfven användes i La-<lb/> croix's verk, kan det med skål anses all- <lb/> deles
+               tillräckligt i ett arbete af så ringa om-<lb/> fång som detta. <lb/>
+               <hi rend="indent">Slutligen tror man sig böra nämnna, att</hi> man, utan att bestrida
+               öfnings-exempels nyt- <lb/> ta och nödvändighet för att bibringa nybeg-<lb/> gynnare
+               färdighet i råkning, likvål i detta <lb/> afseende varit så sparsam som möjligt; dels
+               <lb/> för att ej göra boken för dyr, dels emedan <lb/> man an-er huarje lärare, med
+               billiga an- <lb/> spräk på skicklighet, sjelf bäst böra kunna <lb/> uppgifva sådane,
+               afpassade till de lårandes <lb/> fattningsförmåga och blifvande eller varan-<lb/> de
+               ställning i det allrnänna. Den, som vill <lb/> spara sig detta bsvär, kan ifrån
+               början <lb/> ända till och med Regula de tri begagna <lb/> Junkers Arithmetiska
+               Exempel-tabeller, om<lb/> arbetade af Stabeck. <lb/>
+               <hi rend="indent">Närvarande 2:dra upplaga är öfversedd </hi><lb/> och· tillökt med
+               några geometriska satser.<lb/>
+            </p>
+            <note place="bottom" type="layout">Horizontal line in the middle of the source
+               document</note>
+            <pb/>
+         </div>
+
+         <pb/>
+         <div type="prose" rend="justify">
+            <head style="font-variant= large-caps"> FÖRRA DELLEN<lb/>
+               <hi style="font-variant:extra-large-caps; text-align=center">ARITHMETIK</hi>
+            </head>
+            <p>
+               <note place="bottom" rend="small-font">Elem. af Arith. och Planin. 1
+                     Del.<num>1</num><locus>bottom right corner</locus></note>
+            </p>
+         </div>
+         <pb n="1 place=bottom_left"/>
+         <div type="prose" rend="justify">
+            <!-- blank page -->
+            <p>
+               <hi rend="center" style="caps">INLEDNING.></hi><lb/>
+               <hi rend="center"> § 1. </hi><lb/>
+               <emph rend="italic">Mathematik</emph>är vetenskapen om Qvantiteter.<lb/>
+               <hi rend="center"> § 2. </hi><lb/>
+               <hi rend="indent"><emph rend="italic">Qvanlileler</emph> kallar man allt, hvad som
+                  genom </hi>.<lb/> likartade delars tilläggande eller borttagande kan ökas.<lb/>
+               eller minskas..<lb/>
+               <hi rend="center"> § 3. </hi><lb/>
+               <hi rend="indent">De äro af två väsendtligt åtskilda slag, nemli-</hi><lb/> gen:
+               Sammanhängande (continuerliga) Quantiteter eller<lb/> Storheter, hvaribland
+               hufvudsakligast förekomma qvan-<lb/> titeter, som äro utsträckta i rummet, och Skilda
+               <lb/> (discreta) qvaniiteter, myckenheter eller antal.<lb/>
+               <hi rend="indent">Exempel på sammanhängande qvantiteter äro:</hi>
+               <lb/> en linia, en rymd; exempel på skilda: en sandhög, <lb/> en kulstapel. Det är
+               naturligt att hvarje enskilt del <lb/> af en discret qvantitet, för sig sjelf
+               betraktad, t. ex. hvar kula i en kulstapel, utgör en sammanhängande<lb/> qvantitet. <lb/>
+               <hi rend="center"> § 4. </hi><lb/>
+               <hi rend="indent">I anledning af denna qvantiteternas indelning,</hi>
+               <lb/> delas Mathematiken i två hufvuddelar, af hvilka den <lb/> ena, som handlar om
+               skilda qvantiteter eller antal, kan <lb/> kallas Arithmetik, då man tager detta ord i
+               sin vid-v<lb/>
+            </p>
+         </div>
+         <pb n="4"/>
+         <div type="prose" rend="justify">
+            <p>sträcktaste betydelse; den andra, eller vetenskapen<lb/> om storheter som äro
+               utsträckta i rummet, kallas<lb/> Geomeitrie. <hi rend="center"> § 5. </hi><lb/>
+               <hi rend="indent">Då man föreställer sig flera föremål utaf samma</hi><lb/> slag
+               såsom förenade, eller på en gång, så får man<lb/> Begrepp on Antal eller Tal.<lb/>
+               <hi rend="indent">Hvarje särskilt af dessa föremål kallas</hi><lb/> då Ett eller Enhet.<lb/>
+               <hi rend="indent">Ett antal eller är således ej annat, än en</hi><lb/> förening eller
+               sammansättning af enheter.<lb/>
+               <hi rend="center"> § 6. </hi><lb/>
+               <hi rend="indent">Då man vet huru många enheter äro förenade i</hi><lb/> ett tal, så
+               säges detta tal vara bestämde. Då man<lb/> deremot icke ver, eller lemnar därhän,
+               huru många<lb/> enheter deruti innefattas, kallas det obestimdt.<lb/>
+               <hi rend="center"> § 7. </hi><lb/>
+               <hi rend="indent">Aritmetiken, i den vidsträcktata betydelse den</hi>v Här är tagen,
+               eller vetenskapen on tal, indelas der-<lb/> Före i två delar: af vilka den den ena,
+               som handlar on<lb/> Andra, som handlar on obestämda tal, kallas van-<lb/> Ligen Algebra.<lb/>
+               <hi rend="center"> § 8. </hi><lb/>
+               <hi rend="indent">Enheten betecknas som man vet med 1 och kal-</hi><lb/> Las ett. <hi
+                  rend="indent">Del tal, som uppkommer då en enhet förenas</hi><lb/> Med en anan,
+               betecknas med 2 kallas två.v Då till denna förening åter lägges en enhet, så
+               betecknas det tal som deraf uppkommer, med 3 och<lb/> Kallas tre.<lb/>
+            </p>
+         </div>
+         <pb n="5"/>
+         <div type="prose" rend="justify">
+            <p>
+               <hi rend="indent">Om man på detta sätt fortfar att lägga ett till</hi><lb/> hvarje
+               näst föregående förening, så uppkomma efter<lb/> hand de tal, som kallas fyra, fem,
+               sex, sju, åtta,<lb/> nio och som betecknas med 4, 5, 6, 7, 8, 9.<lb/>
+               <hi rend="indent">Men man kan fortfara i oändlighet att på detta</hi><lb/> sätt lägga
+               ett till hvarje närmast förutgående tal och<lb/> man får derigenom en oändlig mängd
+               af tal, som<lb/> blifva allt större och större.<lb/>
+               <hi rend="indent">Skulle man då utmärka hvart och ett med alldeles</hi><lb/> nya namn
+               och nya tecken (ziftiror), så finge<lb/> man en oändlig mängd namn och tecken, hvilka
+               det<lb/> vore omöjligt att minnas och igenkänna. För att<lb/> undvika denna
+               svårighet, har man sammanfattat ett<lb/> visst antal enheter till en ny högre enhet,
+               ett lika<lb/> af dessa högre till en ännu högre enhet, och<lb/> åter ett lika antal
+               af dessa sista, till en ännu högre<lb/> o. s. v. På detta sätt har man fått allt
+               högre enheter,<lb/> af hvilka hvar och en är ett visst antal gånger<lb/> större än
+               den närmast lägre,<lb/>
+               <hi rend="indent">Talet tio, eller det tal som uppkommer då ett</hi><lb/> lägges till
+               nio, är det första som sammanfattas till<lb/> en sådan högre enhet; det betecknas
+               derföre med<lb/> 10; då tecknet O, som kallas noll och i sig sjelf betyder<lb/>
+               ingenting, här lägges till 1, för att skilja denna<lb/> högre enhet från den
+               egentliga enheten.<lb/>
+               <hi rend="indent">Det tal, som uppkommer då en sådan högre</hi><lb/> enhet förenas
+               med en a1man af samma slag ( då tio<lb/> förenas med tio), kallas tjugu (två-tio) och
+               beteck-<lb/> nas med 20; lägges dertill ånnu ett tio, så uppkom-<lb/> mer det tal som
+               kallas trettio (tre.tio) och betecknas<lb/> med 30, o. s. v. i. ända till det tal,
+               som uppkommer<lb/> då tio sådana enheter (tio-tior) förenas, hvilket åter<lb/>
+            </p>
+         </div>
+         <pb n="6"/>
+         <div type="prose" rend="justify">
+            <p> sammanfattas till en enhet, som kallas ett hundra<lb/> och betecknas med 100.<lb/>
+               <hi rend="indent">Af denna sita enhet (ett hundra) uppkomma</hi><lb/> nu likaledes
+               successivt de tal, som kallas två hundra,<lb/> tre hundra o. s. v. och betecknas med
+               200, 300;<lb/> o. s. v. ända till 10 hundra, som åter sammanfattas<lb/> till en
+               enhet, hvilken kallas ett tusen och betecknas<lb/> med 1000.<lb/>
+               <hi rend="indent">På samma sätt uppkomma vidare de ännu högre</hi><lb/> enheterna,
+               som kalla tio tusen, ett hundra tusen, en<lb/> million. o. s. v. och betecknas med
+               10000, 100000,<lb/> 1000000, o. s. v. af hvilka hvar och en högre är<lb/>
+               sammanfattad af tio utaf de närmast lägre.<lb/>
+               <hi rend="center"> § 9. </hi><lb/>
+               <hi rend="indent">De tal, som uppkomma då högre och lägre enheter</hi><lb/> förenas
+               med hvarandra. betecknas derigenom,<lb/> att man sätter de tecken, som utmärka
+               antalet af<lb/> dem: jemte hvarandra i den ordning, att det tecken,<lb/> som utmärker
+               antalet af de hösta enheterna sättes<lb/> främst (längs till venster): det tecken som
+               utmärker<lb/> antalet af de närmast lägre enheterna, dernäst, o. s.<lb/> v. Så att
+               alltid de lägsta eller egentliga enheterna,<lb/> komma i sista rummet,<lb/>
+               <hi rend="indent">De nollor som skilja de olika slags enheterna,</hi><lb/> kumna
+               derigenom uteslutas, emedan det rum, som<lb/> hvart och ett tecken har,
+               tillkännagifer hvilket slag<lb/> af enheter det betecknar.<lb/>
+               <hi rend="indent">Så betecknar man t. ex. det tal som uppkommer</hi><lb/> då 3000,
+               700, 90 och 5 förenas med hvarandra,<lb/>
+            </p>
+         </div>
+         <pb n="7"/>
+         <div type="prose" rend="justify">
+            <p>
+               <hi rend="center"> § 10. </hi><lb/>
+               <hi rend="indent">Skulle några slag af de lägre enheterna fattas,</hi><lb/> så
+               uppfyller man med nollor de platser, som de<lb/> skule intaga.<lb/>
+               <hi rend="indent">Således betecknar man t. ex. det tal; som upp-</hi><lb/> kommer då
+               600000, 5000 och 60 förenas med hvar-<lb/> andra, med 605060; och nollorna utmärka
+               att i detta<lb/> tal icke finnas några tiotusen; hundraden och egent-<lb/> liga enheter.<lb/>
+               <hi rend="center"> § 11. </hi><lb/>
+               <hi rend="indent">Vi hafva nu visat huru man på ett papper eller</hi><lb/> en tafla
+               kan beteckna hvilket tal som helst. Man<lb/> kan på samma grund äfven göra sig ett
+               bestämdt<lb/> begrepp om ett tals storlek. när man ser det beteck-<lb/> Nada. On man
+               t. ex. på papperet har talet 8035,<lb/> så ser man, då man efter hvarandra
+               genomgår<lb/> ziffrorne från höger till venster, att talet består af 5<lb/> egentliga
+               enheter, 3 tior, inga hundra och 8 tusen,<lb/> och att det således bör utnämnas med
+               åtta tusen<lb/> trettiofem. Men för mycket stora tal såsom t. ex.<lb/> för talet
+               543207009546873 skulle detta sätt blifva för<lb/> långsamt och besvärligt. Man
+               använder derföre all-<lb/> tid följande praktiska regel, som gifver alldeles
+               sam-<lb/> ma resultat. Man afskiljer nemligen först med ett<lb/> comma ziffrorne i
+               klasser från höger till venster, tre<lb/> ziffror i hvarje klass. Öfver tredje
+               klassens yttersta<lb/> ziffra åt höger kan man sedan sätta en punkt, öfver<lb/> 5:te
+               klasse11s två punkter, öfver 7:de klassens tre<lb/> punkter o. s. v. öfver hvarannan
+               klass. Slutligen<lb/> öfverstrykes hvart annat comma från och med det<lb/> andra. Den
+               ziffra som har en punkt öfver sig, ut-<lb/> nämnes med Millioner, den som har två
+               punkter<lb/> med Billioner, den som har tre, med Trillioner o. s.<lb/>
+            </p>
+         </div>
+         <pb n="8"/>
+         <div type="prose" rend="justify">
+            <p> v., af de öfriga ziffrorne utnämnes den som har ett<lb/> comma efter sig, med tusen,
+               den som följer efter<lb/> comma, med hundra, den dernäst med tior och den<lb/>
+               derefter med enheter. På detta sätt indeladt får talet<lb/> 543207009546873 följande
+               utseende 543207,009546,873<lb/> och utnämnes med femhundra fyratiotre billioner<lb/>
+               tvåhundra asjutusen nio millioner; femhundra fyratiosex<lb/> tusen, åttahundra sjuttiotre.<lb/>
+               <hi rend="center"> § 12. </hi><lb/>
+               <hi rend="indent">Obestämda tal betecknas med bokstäfver. Man</hi><lb/> nyttjar då
+               vanligen de första bokstäfvetna i aiphabetet<lb/> (a, b, c, d, o. s. v.) för att
+               beteckna de tal,<lb/> som supponeras bekanta, ehnrt1 man Jemoar derhiin<lb/> huru
+               stora de äro; och de sista bokstäfvel'na (t, u,<lb/> v, x, y och z) för att utmärka
+               obekanta tal.<lb/>
+               <hi rend="center"> § 13. </hi><lb/>
+               <hi rend="indent">När man sågades betecknar obestämda tal, kan</hi><lb/> Man icke af
+               tecknen (bokstäfverna)skilja de större<lb/> talen från de mindre. Om man därför
+               behöfver angifva<lb/> bvilketdera som är större af två sålunda betecknade<lb/> tal,
+               fordras dertill äfven ett tecken, och<lb/> detta tecken år >, hvilket sättes emellan
+               dem, så<lb/> att spetsen vändes mot det mindre talet.<lb/>
+               <hi rend="indent">På detta sått utmärker a>b att a är större än</hi><lb/> b, och
+               a&lt;b att a är mindre än b<lb/>
+               <hi rend="indent">Vill man åter utmärka att två på olika sätt be-</hi> tecknade tal
+               äro lika stora, så sätter man tecknet=<lb/> emellan dem. Således betecknar a=b att a
+               är lika<lb/> med b.<lb/>
+               <hi rend="indent">Detta sista tecken (=) kallas derföre likhetstecken.</hi><lb/>
+            </p>
+         </div>
+         <pb n="9"/>
+         <div type="prose" rend="justify">
+            <p>
+               <hi rend="caps">rend="cap"FÖRSTA CAPITLET,</hi><lb/> Quatuor Species i hela Tal.<lb/>
+               <hi rend="center"> § 14. </hi><lb/>
+               <hi rend="indent">Det är förut nämdt,(2) att allt hvad som kan</hi><lb/> få namn af
+               qvantitet, måste kunna, genom likartade<lb/> delars tilläggande eller borttagande,
+               ökas eller minskas.<lb/> Ett tal kan ökas derigenom, att man tillsåtter<lb/> ett
+               eller flera andra tal. Denna operation, hvarigenom<lb/> två eller flera tal förenas
+               till et enda, kallas<lb/> Addition.<lb/>
+               <hi rend="indent">Att addera är således: att sammanlägga två eller</hi><lb/> Flera
+               tal tillett enda, eller att söka att tal, som är<lb/> Lika med två eller flera tal
+               tillhopa.<lb/> Detta tal kallas då Summa af de sammanlagda<lb/> talen<lb/>
+               <hi rend="center"> § 15. </hi><lb/>
+               <hi rend="indent">För att beteckna en summa, eller, ett tal,som</hi><lb/> uppkommer
+               då några tal adderas, sätter man teck-<lb/> net + mellan dessa sednare, och detta
+               tecken kal-<lb/> las plus. Om t. ex. 4 skall adderas till 7, så be-<lb/> Tecknas
+               detta med 4+7. Om till 7 skall först ad-<lb/> deras 4 sedan till summan skall adderas
+               9, så<lb/> betecknas det med 4+7+9. Och i allmänhet om b<lb/> skall adderas till a,
+               betecknas detta med a+b, och<lb/> om till summa vidare skall adderas c, så be-
+               tecknas sådant med a+b+c.<lb/>
+               <hi rend="center"> § 16. </hi><lb/>
+               <hi rend="indent">Då bestämda tal (ziffer-tal), som bestå af enkla</hi>
+               <lb/> ziffror, skola adderas, så är det naturligt att man i<lb/>
+               <note place="bottom" rend="small-font">Elem. af Arith. och Planin. 1
+                     Del.<num>2</num><locus>bottom right corner</locus></note>
+            </p>
+         </div>
+         <pb n="10"/>
+         <div type="prose" rend="justify">
+            <p> tankarne sammanräknar enheterna till en summa;<lb/> så blir t. ex. 7 + 4 = 11 ; 5 +
+               8 + 9 = 22; o. s. v.<lb/>
+               <hi rend="center"> § 17. </hi><lb/>
+               <hi rend="indent">Då tal, om bestå af flera ziffror, skola adderas,</hi><lb/> så är
+               det tydligt att inga andra enheter kunna samman-<lb/> läggas än de som äro af samma
+               slag. Talen uppskri-<lb/> fvas deföre så, att de enheter som äro af samma slag<lb/>
+               komma att stå under hvarandra; det vill säga: egent- liga enheter under egentliga
+               enheter, tior under tior,<lb/> hundra under hundra o. s. v. Om t. ex. 3654 och
+               235<lb/> skola adderas sättas de under hunder hvarandra på föl-<lb/> jande sätt:<lb/>
+               3654<lb/> 233 . Sedan sammanläggas först de<lb/> ----<lb/> 3889<lb/> egentliga
+               enheterna, som här äro 4 och 5, och de-<lb/> ras summa 9 antecknas under de egentliga
+               enheter- nas column: derpå sammanläggas tiorna, som här<lb/> Äro 5 och. 3, och deras
+               summa 8 antecknas under<lb/> Tiornas column: dernäst sammanläggas hundratalen<lb/> 2
+               och 6, hvilkas summa 8 antecknas under hundra-<lb/> talens column,: derefter
+               sammanliggas tusentalen, som<lb/> här äro 3, hvilka antecknas under tusentalens co-
+               lumn: hvaraf hela summan här blir 3889.<lb/>
+               <hi rend="indent">Likaledes om 3847, 7758, och 5689 skola adde-</hi><lb/>
+               <!-- these are part of a sum all the figures appear right-justified in the source -->
+               <hi rend="right">3847</hi><lb/>
+               <hi rend="right">7758</hi><lb/> ras, sättas de under hvarandra på detta sätt: 5689<lb/>
+               <hi rend="right">----</hi><lb/>
+               <hi rend="right">7294</hi><lb/> och additionen verkstålles i samma orrdning som<lb/>
+               förut är nämdt, först med de egentliga enheterna,<lb/> sedan med tiorna o. s. v. Men
+               summan af de egent-<lb/> liga enheterna blir här 9 + 8 + 7 = 24 eller två tior<lb/>
+            </p>
+         </div>
+         <pb n="11"/>
+         <div type="prose" rend="justify">
+            <p> Och fyra enheter, af hvilka blott de fyra enheterna<lb/> upptecknas under enheternas
+               column; de två tiorna<lb/> förenas med summan af tiorna i andra columnen,<lb/> som
+               derigenom blir 2+8+5+4 eller 19 tior, hvilka<lb/> åta utgöra 1 hundra och 9 tior,
+               hvaraf blott de 9<lb/> tiorna upptecknas under tiornas column, och hunt-<lb/> alet
+               förenas med summan af hundratalen i tredje<lb/> columned, hvaraf man således far
+               1+6+7+8 eller<lb/> 22 hundra och således 2 tusen och 2 hundra; häraf<lb/> Upptecknas
+               nu de 2 hundra under tredje columnen,<lb/> Och de 2 tusen förenas med tusentalen i
+               den fjerde<lb/> Columned o.s.v.<lb/>
+               <hi rend="indent">Af dessa example kan man lätt inse, att addi-</hi><lb/> Ion af
+               bestämda tal är blott en reduction, harige-<lb/> Nom de tal, som utmarka lika slags
+               enheter, sam-<lb/> manläggsas, och de särskilda summor, som derige- nom uppkomma,
+               betecknas såsom sammanlagde der- igenom att man sätter dem jemte hvarandra i den<lb/>
+               Ordning som vi i §8 redan förklarat.<lb/>
+               <hi rend="center"> § 18. </hi><lb/>
+               <hi rend="indent">Ett tal minskas derigenom att ett mindre tal ta-</hi><lb/> ges derifrån.<lb/>
+               <hi rend="indent">Den operation, hvarigenom man tager ett tal</hi><lb/> från ett
+               annat, och undersöker huru stort det öfver- blefna talet är, kallas Subtraction.<lb/>
+               <hi rend="indent">Att subtrahera är således: att söka det tal, som</hi><lb/> blir
+               öfver när ett mindre tal tages från ett större.<lb/> Och detta öfverblefna tal, eller
+               skillnaden emellan<lb/> det större och mindre talet, kallas Rest.<lb/>
+            </p>
+         </div>
+         <pb n="12"/>
+         <div type="prose" rend="justify">
+            <p>
+               <l rend="center"> § 19. </l><lb/>
+               <hi rend="indent">För att beteckna en sådan rest sätter man teck-</hi><lb/> net -,
+               som kallas minus, emellan de två talen; och<lb/> det så, att det talet, som skall
+               subtraheras eller ta-<lb/> gas från det andra, sättes efteråt. Det förra kallas<lb/>
+               minuend, det sednare subtrahend.<lb/> På detta sätt betecknar 9-3 skillnaden
+               emellan<lb/> 9 och 3, eller den rest man får då 3 tages från 9.<lb/>
+               <hi rend="indent">På samma sätt betecknar 9-3-4 den rest man</hi><lb/> får, då man
+               från 9 subtraherar 3 och sedan från<lb/> resten subtraherar 4 o. s. v. Och i
+               allmänhet be-<lb/> tecknar a-b den rest man far, då b tages från a; a-b-c den rest
+               man får, då man från a först<lb/> subtraherar b och sedan från resten subtraherar
+               c,<lb/> o.s.v.<lb/>
+               <!-- there is an error in the sourse it says §3 when it shold be §20 -->
+               <hi rend="center"><choice>
+                  <sic>§3.</sic>
+                  <corr>§20.</corr></choice><note type="editorial">Origianl source has an error:'§3' when it should be '§20' </note>
+                 </hi><lb/>
+               <hi rend="indent">Då eft tal, som består af en enkel ziffra, skall</hi><lb/>
+               subtraheras från ett annat, som också består af<lb/> blott en ziffr, så drager man
+               naturligtvis i tankan<lb/> antalet af den mindre ziffrans enheter från antalet
+               af<lb/> Den störres; saåfinner man t. ex. 9-5=4; 6-<lb/> 5=1; o.s.v.<lb/>
+               <hi rend="center"> § 21. </hi><lb/>
+               <hi rend="indent">Dä deremot tal, som bestå af flera ziffror, skola</hi><lb/>
+               subtraheras från hvarandra, så är dett klart, att man<lb/> från ett gifvet slags
+               enheter egentligen blott kan<lb/> subtrahera sådana som utmärka enheter af samma<lb/>
+               slag; nemligen: egentliga enheter från hvarandra,<lb/> tior från tior, hundra från
+               hundra, o.s.v. Man<lb/> skrifver derföre subtrahenden på sådant sätt under<lb/>
+               minuenden, att egentliga enheter komma att stå un-<lb/> der egentliga enheter, tior
+               under tior, hundraden un<lb/>
+            </p>
+         </div>
+         <pb n="13"/>
+         <div type="prose" rend="justify">
+            <p> der hundraden o.s.v. Således om man t. ex. från<lb/> 789 skall subtrahera . . . . .
+               . . . .<lb/> 435, så tager man först 5 enheter från de 9 enhe-<lb/> terna i det förra
+               talet, hvaraf resten blir 4 enheter;<lb/> sedan tager man 3 tior från de 8 tiorna i
+               samma<lb/> Tal, hvaraf resten blir 5 tior; slutligen tages 4 hun-<lb/> dra ifrån de 7
+               hundra i samma tal, hvaraf resten blir<lb/> 3 hundra; således blir hela resten lika
+               med 3 hun-<lb/> dra, 5 tior och 4 enheter, eller 354.<lb/>
+               <hi rend="indent">Men då det ofta händer, att några af de lägre</hi><lb/> enheterna i
+               minuenden antingen helt och hållet fat-<lb/> tas, eller icke äro så många som de,
+               hvilka äro af<lb/> samma slag med dem i subtrahenden, sä tager man<lb/> så en af de
+               närmast högre enheterna i minuenden<lb/> och upplöser eller likasom växlar sönder
+               henne i si-<lb/> na tio lägre enheter, varigenom man alltid får ett<lb/> antal, som
+               är mer än tillräckligt för subtraktionens<lb/> verkställande<lb/>
+               <hi rend="indent">Sälades on man t. ex. från 7654 skall subtrahera</hi><lb/> . . . .
+               . . . . . . . 4796, så finnes i ta-<lb/> let 7654 blott 4 egentliga enheter; men nu
+               skola 6<lb/> enheter tagas derifrån, således måste man taga en<lb/> af de 5 tiorna i
+               detta tal och upplösa henne i sina<lb/> tio enheter, hvaraf man får inalles 14
+               enheter, och<lb/> då nu 6 tagas derifrån, blir resten 8 enheter; ifrån<lb/> de 4
+               öfriga tiorne i detta tal skola nu 9 tior sub-<lb/> traheras, hvilket icke heller är
+               möjligt; således må-<lb/> ste man taga ett af de 6 hundratalen och upplösa<lb/> de i
+               sina tio tior, hvaraf fås inalles 14 tior, och<lb/> då nu 9 tior tagas derifrån, blir
+               resten 5 tior; vi-<lb/> dare skall nu 7 hundra subtraheras från samma tal;<lb/> men
+               detta tal har nu icke mer än 5 hundratal öfriga<lb/> (emedan ett af dem är upplöst i
+               tior) således måste<lb/>
+            </p>
+         </div>
+         <pb n="14"/>
+         <div type="prose" rend="justify">
+            <p> man nu taga ett af de 7 tusen-talen och upplösa det<lb/> i sina tio hundratal,
+               hvaraf blir inalles 15 hundra,<lb/> och då nu 7 hundra subtraheras derifrån, blir
+               resten<lb/> 8 hundra; ifrån de 6 tusen-talen kunna nu 4 tusen<lb/> subtraheras och
+               resten blir 2 tusen; och således<lb/> blir hela resten 2858.<lb/>
+               <hi rend="center"> § 22. </hi><lb/>
+               <hi rend="indent">För att addera ett och samma tal, taget flera</hi><lb/> gånger,
+               till en summa, eller söka det tal som ut-<lb/> trycker denna summas storlek, har man
+               en särskilt<lb/> operation, som kallas Multiplication.<lb/>
+               <hi rend="indent">Att multiplicera ett tal 4 med ett annat tal 5 är</hi><lb/> det
+               samma som att addera, eller söka summan af 5<lb/> tal, som hvardera äro lika med 4,
+               eller att söka ett<lb/> tal, som är 5 gånger större än ett annat tal 4.<lb/> Den
+               sökta summan , eller det tal som är 5 gånger<lb/> större än 4. kallas product utaf
+               dessa talen.<lb/>
+               <hi rend="indent">Det tal som multipliceras, eller adderas flera</hi><lb/> gånger
+               taget, kallas multlicand; och de tal, som<lb/> utmärker huru många ganger det är
+               taget, eller<lb/> huru många gånger producten är större än multipli-<lb/> canden,
+               kallas multiplicator.<lb/>
+               <hi rend="indent">Multiplicatorn och multiplicanden kallas eljest</hi><lb/> med ett
+               gemensamt namn Factorer.<lb/>
+               <hi rend="center"> § 23. </hi><lb/>
+               <hi rend="indent">Då man vill beteckna att ett tal skall multipli-</hi><lb/> ceras
+               med ett annat, sätter man antingen tecknet x<lb/> eller blott en punkt mellan dem;
+               eller ock, om ta- len äro obestämda, sätter man dem vanligen jemte<lb/> hvarandra
+               utan något tecken.<lb/>
+            </p>
+         </div>
+         <pb n="15"/>
+         <div type="prose" rend="justify">
+            <p>
+               <hi rend="indent">Således betecknar t. ex. 3x4 eller 3.4 det-</hi><lb/> samma som 4
+               gånger 3, eller den product man får,<lb/> då 3 multipliceras med 4. Likaledes
+               betecknar 3.4.5<lb/> den product man får, då 3 multipliceras med 4 och<lb/>
+               producten, som deraf uppkommer, åter multipliceras<lb/> med 5. Och om ett obestämdt
+               tal a skall multipli-<lb/> ceras med ett annat obestämdt tal b, så betecknas<lb/>
+               producten med ab; skall denna product åter multipli-<lb/> ceras med ett tal c, så
+               betecknas den product<lb/> som deraf uppkommer, med abc., o.s.v. Likaledes<lb/>
+               betecknar (a+b) (c-d) producten, som fås då a+b<lb/> multipliceras med c-d o.s.v. Om
+               ett och samma<lb/> tal skall multipliceras med sig sjelf; om a skall mul-<lb/>
+               tipliceras med a, så betecknar man icke producten<lb/> med aa, utan skriver för
+               korthetens skull a2;<lb/> Skall äter denna product multipliceras med a, så<lb/>
+               betecknas dem deraf uppkommande producten med<lb/> a3; o.s.v. sä att a4 , a5 , a6,
+               o.s.v. beteckna<lb/> detsamma som aaaa, aaaaa, aaaaaa o.s.v. Lika-<lb/> ledes
+               betecknar (a+b)2; (e+b}3 detsamma som<lb/> (a+b) (a+b); (a+b) (a+b) (a+b) o.s.v. De
+               num-<lb/> rorna, som här sättas till höger öfver den qvantitet<lb/> man multiplicerar
+               med sig sjelf, och som utmärka<lb/> huru många gånger samma qvantitet ingår som
+               fac-<lb/> tor i den betecknade producten, kallas exponenter.<lb/>
+               <hi rend="center"> § 24. </hi><lb/>
+               <hi rend="indent">Om två eller flera factorer skola multipliceras med</hi><lb/>
+               hvarandra, så ät· det likgiltigt i hvilken ordning mul-<lb/> tiplicationen sker, så
+               är t. ex. 4.5 = 5.4; ty 4 är=<lb/> 1-1+1+1; sätter man nu 5 sådane rader under<lb/>
+               Hvarandra på följande sätt:<lb/>
+            </p>
+         </div>
+         <pb n="16"/>
+         <div type="prose" rend="justify">
+            <p>
+               <!-- the whole sum is enclosed in large {} and slightly indented in the source--> 4 =
+               1 + 1 + 1 + 1<lb/> 4 = 1 + 1 + 1 + 1<lb/> 4 = 1 + 1 + 1 + 1<lb/> 4 = 1 + 1 + 1 + 1
+               och adderar alla fyror,<lb/> 4 = 1 + 1 + 1 + 1<lb/> 4.5= 5 + 5 + 5 + 5 <lb/> som äro
+               på vens sidan om likhets-tecknen, så är<lb/> klart att summan blir fem gånger fyra
+               eller 4.5; men<lb/> denna summa måste vara lika med summan af alla<lb/> enheterna,
+               som äro på andra sidan, och dessa enhe-<lb/> ter äro lika många, man må addera dem i
+               hvilken<lb/> ordning som helst, man kan derföre särskilt sam-<lb/> manlägga dem, som
+               stå i samma column, då man<lb/> tydligen får 5 i hvrar column; nu är columnernas<lb/>
+               anttal 4; således blir enheternas antal 4 gånger 5,<lb/> eller 5.4, och följaktligen
+               4.5 = 5.4.<lb/>
+               <hi rend="indent">På samma sätt bevises äfven: att om 4.5 multi-</hi><lb/> pliceras
+               med 7. så bli producten densamma som<lb/> om 4.7 multipliceras med 5.<lb/>
+               <hi rend="indent">Ty 4.5 är = 4+4+4+4+4; sätter man nu 7</hi><lb/> sådana
+               expressioner under hvarandra på följan-<lb/> de sätt:<lb/>
+               <!-- the whole sum is enclosed in large {} and justified in the source--> 4.5 = 4 + 4
+               + 4 + 4 + 4<lb/> 4.5 = 4 + 4 + 4 + 4 + 4<lb/> 4.5 = 4 + 4 + 4 + 4 + 4<lb/> 4.5 = 4 +
+               4 + 4 + 4 + 4<lb/> 4.5 = 4 + 4 + 4 + 4 + 4<lb/> 4.5 = 4 + 4 + 4 + 4 + 4<lb/> 4.5 = 4
+               + 4 + 4 + 4 + 4<lb/>
+               <!-- there is a continous line  --> -----------------------<lb/> 4.5.7 =
+               4.7+4.7+4.7+4.7+4.7=4.7.5<lb/> och adderar alla 4.5 på venstra sidan om likhets-<lb/>
+               tecknet, så b]ir summan 7 gånger 4.5 eller 4.5.7;<lb/> och då man sammmalägger alla
+               fyror, som äro i<lb/> samma column på andra sidan, så får man tydligen<lb/>
+            </p>
+         </div>
+         <pb n="17"/>
+         <div type="prose" rend="justify">
+            <p> 7.4 eller 4.7 utaf hvar column; och efter columner­<lb/> nas antal äro fem, så
+               blifva alla dessa 4.7 tillsam-<lb/> mantagne lika med 5 gånger 4.7 eller 4.7.5,
+               följakt­<lb/> ligen är 4.7.5 = 4.5.7. <hi rend="center"> § 25. </hi><lb/><lb/> Att
+               multiplicera 2:ne enkla ziffror med kvarandra:<lb/>
+               <hi rend="indent">Härtill fordras att säkert minnas alla de produc­</hi><lb/> ter,
+               som uppkomma då en ziffra multipliceras med <lb/> en ·annan. Detta läres af följande
+               tabell, som är <lb/> funnen derigenom att hvarje enkel ziffra adderats tili<lb/> sig
+               sjelf ifrån en, ända till nio gånger. <lb/> Multiplications-Tabell.<lb/>
+               <table>
+                  <row>
+                     <cell role="data" n="1">1</cell>
+                     <cell role="data" n="2">2</cell>
+                     <cell role="data" n="3">3</cell>
+                     <cell role="data" n="4">4</cell>
+                     <cell role="data" n="5">5</cell>
+                     <cell role="data" n="6">6</cell>
+                     <cell role="data" n="7">7</cell>
+                     <cell role="data" n="8">8</cell>
+                     <cell role="data" n="9">9</cell>
+                  </row>
+                  <row>
+                     <cell role="data" n="2">2</cell>
+                     <cell role="data" n="4">4</cell>
+                     <cell role="data" n="6">6</cell>
+                     <cell role="data" n="8">8</cell>
+                     <cell role="data" n="10">10</cell>
+                     <cell role="data" n="12">12</cell>
+                     <cell role="data" n="14">14</cell>
+                     <cell role="data" n="16">16</cell>
+                     <cell role="data" n="18">18</cell>
+                  </row>
+                  <row>
+                     <cell role="data" n="3">3</cell>
+                     <cell role="data" n="6">6</cell>
+                     <cell role="data" n="9">9</cell>
+                     <cell role="data" n="12">12</cell>
+                     <cell role="data" n="15">15</cell>
+                     <cell role="data" n="18">18</cell>
+                     <cell role="data" n="21">21</cell>
+                     <cell role="data" n="24">24</cell>
+                     <cell role="data" n="27">27</cell>
+                  </row>
+                  <row>
+                     <cell role="data" n="4">4</cell>
+                     <cell role="data" n="8">8</cell>
+                     <cell role="data" n="12">12</cell>
+                     <cell role="data" n="16">16</cell>
+                     <cell role="data" n="20">20</cell>
+                     <cell role="data" n="24">24</cell>
+                     <cell role="data" n="28">28</cell>
+                     <cell role="data" n="32">32</cell>
+                     <cell role="data" n="36">36</cell>
+                  </row>
+                  <row>
+                     <cell role="data" n="5">5</cell>
+                     <cell role="data" n="10">10</cell>
+                     <cell role="data" n="15">15</cell>
+                     <cell role="data" n="20">20</cell>
+                     <cell role="data" n="25">25</cell>
+                     <cell role="data" n="30">30</cell>
+                     <cell role="data" n="35">35</cell>
+                     <cell role="data" n="40">40</cell>
+                     <cell role="data" n="45">45</cell>
+                  </row>
+                  <row>
+                     <cell role="data" n="6">6</cell>
+                     <cell role="data" n="12">12</cell>
+                     <cell role="data" n="18">18</cell>
+                     <cell role="data" n="24">24</cell>
+                     <cell role="data" n="30">30</cell>
+                     <cell role="data" n="36">36</cell>
+                     <cell role="data" n="42">42</cell>
+                     <cell role="data" n="48">48</cell>
+                     <cell role="data" n="54">54</cell>
+                  </row>
+                  <row>
+                     <cell role="data" n="7">7</cell>
+                     <cell role="data" n="12">12</cell>
+                     <cell role="data" n="21">21</cell>
+                     <cell role="data" n="28">28</cell>
+                     <cell role="data" n="35">35</cell>
+                     <cell role="data" n="42">42</cell>
+                     <cell role="data" n="49">49</cell>
+                     <cell role="data" n="56">56</cell>
+                     <cell role="data" n="63">63</cell>
+                  </row>
+                  <row>
+                     <cell role="data" n="8">8</cell>
+                     <cell role="data" n="16">16</cell>
+                     <cell role="data" n="24">24</cell>
+                     <cell role="data" n="32">32</cell>
+                     <cell role="data" n="40">40</cell>
+                     <cell role="data" n="48">48</cell>
+                     <cell role="data" n="56">56</cell>
+                     <cell role="data" n="64">64</cell>
+                     <cell role="data" n="72">72</cell>
+                  </row>
+                  <row>
+                     <cell role="data" n="9">9</cell>
+                     <cell role="data" n="18">18</cell>
+                     <cell role="data" n="27">27</cell>
+                     <cell role="data" n="36">36</cell>
+                     <cell role="data" n="45">45</cell>
+                     <cell role="data" n="54">54</cell>
+                     <cell role="data" n="63">63</cell>
+                     <cell role="data" n="72">72</cell>
+                     <cell role="data" n="81">81</cell>
+                  </row>
+               </table>
+               <hi rend="indent">Om man nu af denna tabell vill finna producten</hi>­<lb/> af tvenne
+               enkla ziffror, t. ex. 8 gånger 6, så upp­<lb/> söker man 8 i den öfversta raden och
+               följer dess <lb/> column rätt ned till dess den afskäres af den column <lb/> som från
+               ziffran 6 i yttersta columnen till venster<lb/> går rätt ut till höger; i
+               afskärningen finnes den sök­<lb/> ta producten 48. <lb/>
+               <note place="bottom" rend="small-font">Elem. af Arith. och Planin. 1
+                     Del.<num>3</num><locus>bottom right corner</locus></note>
+            </p>
+
+         </div>
+         <pb n="18"/>
+         <div type="prose" rend="justify">
+            <p>
+               <hi rend="center"> § 26. </hi><lb/><lb/>
+               <hi rend="indent">Om summan af två eller flera tal multipliceras</hi>­<lb/> med ett
+               annat, så blir producten lika med summan­<lb/> af de producter man får då hvardera af
+               de först-­<lb/> ­nämnde talen multipliceras med de sednare; så är ­<lb/> t. ex.
+               456.3=(4OO+50+6). 3=400.3+50.3+6.3; ty­<lb/> emedan multiplication ej är annat än en
+               fortsatt ad-­<lb/> ­dition af ett och samma tal till sig sjelf ett visst an-­<lb/>
+               ­tal gånger så är (400+50+6). 3 detsamma som­<lb/>
+               <hi rend="indent">Och emedan det är likgiltigt i hvilken ordning</hi>­<lb/> man
+               adderar talen till hvarandra, så är detta det-­<lb/> ­samma som
+               400+400+400+50t50t50+6+6+6 hvil-­<lb/> ­ket åter är detsamma som 400.3+50.3+6.3.
+               ­<lb/> Anmärkning. Om således a, b, c utmärka trenne­<lb/>
+               <hi rend="indent">tal, så är (a+b) c=ac+bc. På samma sätt kan</hi>­<lb/>
+               <hi rend="indent">äfven bevisas att (a-b) c=ac-bc.</hi>­<lb/>
+               <hi rend="center"> § 27. </hi><lb/><lb/>
+               <hi rend="indent">Ett tal blir multipliceradt med tio, då man till</hi><lb/> höger
+               tillägger ett noll; med hundra, då man till<lb/> höger tillägger två noller; med
+               tusen, då man tilläg-<lb/> ­ger tre noller o. s. v. <lb/>
+               <hi rend="indent">Om t. ex. 426 skall multipliceras med 10, så </hi><lb/> blir
+               prod􀈽cten=4260; ty derigenom att O tillägges<lb/><lb/> till höger, blifva enheterna
+               af hvarje slag förvandlade<lb/> till enheter af närmast högre slag {§§ 8, 9,10)
+               och<lb/> således tio gånger större än förut.<lb/>
+               <hi rend="indent">Men då delarne 400, 20 och 6 göras tio gån-</hi><lb/> ­ger stöne,
+               så blir också hela talet 426 tio gånger<lb/> större {föregående §). <lb/>
+            </p>
+         </div>
+         <pb n="19"/>
+         <div type="prose" rend="justify">
+            <p>
+               <hi rend="center"> § 28. </hi><lb/><lb/> Då ett tall, som består af flera ziffror,
+               skall multipliceras med en enkel ziffra, uppskrifves multi- plicatorn under
+               multiplicanden; sedan börjar man från höger till venster att multiplicera hvarje
+               ziffra i multiplicanden med mulplicatorn; af de särskilta producterna uppskrifvas
+               endast enherterna midt un- der sina mostvarande ziffror i öfra raden, och tior- nas
+               antal behållas i minnet för att läggas till nästa då hela producten är färdig; t. ex. <lg>
+                  <l n="1"> 2863</l>
+                  <l n="2">6</l>
+                  <l n="3">------</l>
+                  <l n="4">17178</l>
+               </lg> Detta är tydligt af § § 26 och 27.<lb/>
+               <hi rend="center"> § 29. </hi><lb/> Om ett tal, som består at flera ziffror,
+               skall<lb/> multipliceras med ett annat, som blott består af en<lb/> gällande ziffra
+               med en eller flera noller efter sig,<lb/> så multiplicerar man, såsom i föregående §,
+               blott<lb/> med den gållande ziffran; men efter slutad multipli-<lb/> cation flyttas
+               nollerne ned till häger om producten.v Så är t. ex.<lb/>
+               <lg>
+                  <l n="1">765</l>
+                  <l n="2">300</l>
+                  <l n="3">------</l>
+                  <l n="4">229500; ty</l>
+               </lg> 765.300=765.3.100 (§ 27); detta är-2295.100 (§§,<lb/> 24,26): och detta åter
+               är=229500 (§ 27). <lb/>
+               <hi rend="center"> § 30. </hi><lb/><lb/> Då ett tal som består af flera ziffror,
+               skall mul-<lb/> tipliceras med ett annat, som äfven består at flera<lb/>
+            </p>
+
+
+         </div>
+         <lb n="20"/>
+         <div>
+            <p> ziffror, så skrifvas factoferna under hvarandra; se-<lb/> dan multipliceras hela det
+               öfra talet med hvarje ziffra<lb/> i det nedra från höger till venster, då man
+               erhåller<lb/> så många producter som ziffrör finnas i detta se­<lb/> nare; dessa
+               producter uppskrifvas i särskilta rader <lb/> under hvarandra på sådant sätt, att
+               andra radens <lb/> yttersta ziffra till höger; skrifves under första radens<lb/>
+               andra ziffra från höger; tredje radens yttersta ziffra<lb/> till höger under andra
+               radens andra ziffra från hö­<lb/> ger o. s. v.; slutligen adderas alla raderne till
+               en<lb/> summa, som då blir den sökta producten; t. ex. <lb/>
+               <lg>
+                  <l n="1">576</l>
+                  <l n="2">345</l>
+                  <l n="3">-----</l>
+                  <l n="4">2880</l>
+                  <l n="5">2304</l>
+                  <l n="6">1728</l>
+                  <l n="7">-------</l>
+                  <l n="8">198720; ty</l>
+               </lg> 576.345=345.576=576.300+576.40+576.5 (§ 26) och<lb/> detta åter
+               är=l7280+23030+2880 (§ 29), och då<lb/> dessa särskilta producter uppskrifvas till
+               addition<lb/> under hvarandra på vanligt sätt: <lb/>
+               <lg>
+                  <l n="1">2880</l>
+                  <l n="2">23040</l>
+                  <l n="3">178720</l>
+                  <l n="4">------</l>
+                  <l n="5">198720</l>
+
+               </lg> så fås samma summa som efter regeln, emedan nol-<lb/> lerna icke verka någon
+               förändring i addition, och<lb/> regeln utgör således en genväg för att slippa
+               onö­<lb/> digtvis uppskrifva flera noller. <lb/>
+               <hi rend="center"> § 31. </hi><lb/>
+               <hi rend="indent">Om multiplicanden slutas med noller, så multi-</hi><lb/> pliceras
+               endast de gällande ziffrorna med multiplica­<lb/> torn och nollerna nedflyttas till
+               höger om produc­<lb/> ten; t. ex. <lb/>
+            </p>
+         </div>
+         <pb n="21"/>
+         <div>
+            <p>
+               <lg>
+                  <l n="1">520</l>
+                  <l n="2">35</l>
+                  <l n="3">---</l>
+                  <l n="4">260</l>
+                  <l n="5">156</l>
+                  <l n="6">-----</l>
+                  <l n="7">18200; ty</l>
+               </lg> 520.35=52.10.35 (§ 27) och detta åter är=52.35.10<lb/> (§ 24)
+               eller=l820.10=18200 (§ 27).<lb/>
+               <hi rend="center"> § 32. </hi><lb/>
+               <hi rend="indent">OPå samma sätt om begge factorerna s lutas med</hi><lb/> noller, så
+               mutiplceras på samma sätt som om dessa<lb/> noller icke funnes, och sedan nedflyttas
+               de alla till<lb/> höger on producten; t. ex.<lb/>
+               <lg>
+                  <l n="1">780</l>
+                  <l n="2">560</l>
+                  <l n="3">----</l>
+                  <l n="4">468</l>
+                  <l n="5">390</l>
+                  <l n="6">-----</l>
+                  <l n="7">436800;</l>
+
+               </lg> ty 780.560 är=780.56.10=43680.10 (föregående<lb/>
+               <hi rend="left"/>§=436800.<lb/>
+               <hi rend="center"> § 33. </hi><lb/>
+               <hi rend="indent">ODivision är en operation, hvarigenom man söker </hi><lb/> ett tal,
+               som är ett visst antal gånger mindre än ett<lb/> annat. Att således t. ex. dividera
+               ett tal 8 med 2,<lb/> är att söka ett tal som är 2 gånger mindre ån 8; <lb/> eller
+               hvad som år detsamma: att undersöka huru<lb/> stor hvar del blir, när talet 8 delas i
+               två lika stora <lb/> delar.<lb/>
+               <hi rend="indent">Talet 8, som delas eller som år ett visst antal</hi><lb/> gånger
+               större än det sökta, kallas dividend; talet 2, <lb/> som utmärker i huru många delar
+               dividenden skall <lb/> delas, elle huru många gånge den är större än <lb/>
+            </p>
+         </div>
+         <lb n="22"/>
+         <div>
+            <p> det sökta talet, kallas divisor, och det sökta talet<lb/> sjelf, som är 2 gånger
+               mindre än 8, eller som ut­<lb/> märket storleken af hvar del man fåkr då ett tal
+               8<lb/> delas i 2 lika stora delar, kallas qvot.<lb/>
+               <hi rend="indent">Häraf är klart: att dividenden är lika med pro-</hi><lb/> ducten
+               som fås då divisorn multipliceras med qvo­<lb/> ten. Och om man tager qvoten såsom
+               divisor och<lb/> dividerar samma dividend, så får man den förra di­<lb/> visorn till
+               qvot. <lb/>
+               <hi rend="indent">Man kan äfven säga: att division är en opera­</hi><lb/> tion,
+               hvarigenom man undersöker huru många gån-<lb/> ger ett tal är större än ett annat
+               gifvet; ty qvoten<lb/> utmärker huru många gånger dividenden är större<lb/> än
+               divisorn. <lb/>
+               <hi rend="center"> § 34. </hi><lb/>
+               <hi rend="indent">När man vill beteckna qvoten, som uppkommer</hi><lb/> då ett tal
+               divideras med ett annat, sätter man antin­<lb/> gen dividenden framföre divisorn och
+               sätter två <lb/> punkter mellan dem, eller ock sätter man divisorn<lb/> under
+               dividenden med ett streck emellan dem. <lb/>
+               <hi rend="indent">Så betecknar t. ex. 8:2 e1ler 8/6 den qvot, som</hi><lb/> uppkommer
+               när 8 divideras med 2. Och i allmän­<lb/> het betecknar a:b eller a/b den qvot, som
+               uppkom-<lb/> mer då a divideras med b, samt (a+b):(c-d) el-<lb/> ler a+b/c-d den qvot
+               man far da a+b divideras med<lb/> c-d <hi rend="center"> § 35. </hi><lb/>
+               <hi rend="indent">Af § 33 ses att division är en operation, som</hi><lb/> är rakt
+               motsatt multiplication; och pa samma såttv som multiplication kan föreställas genom
+               en uppre-<lb/>
+            </p>
+         </div>
+         <pb n="23"/>
+         <div>
+            <p> pad addition, så kan äfven division föreställas ge­<lb/> nom en upprepad
+               subtraction. Om man t. ex. vill<lb/> veta huru många gånger 16 innehålles uti 64,
+               så<lb/> behöfver man blott subtrahera 16 ifrån 64 så många<lb/> gånger som detta
+               låter sig göra; och som efter fyra<lb/> subtractioner ingenting återstår, kan man
+               deraf sluta<lb/> att 16 innehålles 4 gånger uti 64.<lb/>
+               <hi rend="indent">Men då dividenden är betydligt stor i jemförelse</hi><lb/> med
+               divisorn, skulle denna operation vara för be- <lb/> svärlig; man har derföre påfunnit
+               en genväg sva­<lb/> rande mot den method, som multiplication lårer för<lb/> att i
+               densamma undvika de upprepade additionerna. <lb/> Så ofta dividenden är mindre än 10
+               gånger så stor<lb/> som divisorn, hvilket straxt se af sjelfva talen, och<lb/>
+               divisorn dejemte består blott af en ziffra, så finnes<lb/> qvoten uti multiplications-tabellen.<lb/>
+               <hi rend="indent">Om man t. ex.. vill veta huru många gånger 8</hi>
+               <lb/> innehålles uti 56, följer man den 8:de columnen <lb/> rakt ned, ända till den
+               tvärlinia der man finner ta­<lb/> let 56; ziffran 7, . som står ytterst till venster
+               på <lb/> denna linia, utgör den andra factorn till 56, och ut-<lb/> visar sålades att
+               8 innehålles 7 gånger uti 56.<lb/>
+               <hi rend="indent">Af tabellen ses äfven att det finnes tal, som </hi><lb/> icke jemt
+               kunna divideras med andra. Om man t.<lb/> ex. vill dividera 7 uti något tal som
+               ligger mellan <lb/> 35 och 42 såsom 40, så ser man att 40 icke jemt <lb/> kan delas i
+               7 lika stora delar, utan att hvar del <lb/> måste bli större än 5, men mindre än 6,
+               emedan 5 <lb/> gånger 7 är= 35, och att således en rest 5 uppstår,<lb/> som
+               ytterligare borde delas uti 7 lika stora delar. I<lb/> denna händelse återfår man
+               icke dividenden, genom <lb/> att endast multiplicera qvoten med divisoru såsom <lb/>
+               vivisat i § 33, utan måste ännu till denna product<lb/>
+            </p>
+
+         </div>
+         <pb n="24"/>
+         <div>
+            <p> addera resten; så blir uti det uppgifna exemplet 40=<lb/> 5.7+5. <hi rend="center">
+                  § 36. </hi><lb/>
+               <hi rend="indent">Om summan af flera tal skall divideras med ett</hi><lb/> annat, sä
+               blir qvoten lika med summan af de qvo­<lb/> ter, som fås då hvardera af de
+               förstnämnde talen<lb/> särslilt divideras med det senare; t. ex. 396/3 som<lb/> är =
+               300 +90+6/3 blir = 300/3+90/3+6/3; ty on division<lb/> är rätt verkställd, så skall
+               producten af divisorn 3<lb/> och qvoten 300/3+90/3+6/3 eller 100+30+2 vara likav med
+               dividenden 396 hvilket den äfven här är; ty 3.<lb/> (100+30+2) ar 3.100+3.30+3.2 ( §
+               26) och det-<lb/> ta är tydligen lika med 300+90+6= 396, eller lika<lb/> med den
+               ursprungliga dividenden. <lb/>
+               <hi rend="center"> § 37. </hi><lb/>
+               <hi rend="indent">Sättet att dividera sammansatta tal med hvaran­</hi><lb/> dra
+               grundar sig på föregående §, emedan hvarje tal,<lb/> som består af flera ziffror,
+               kan, såsom förut är nämdt,<lb/> betraktas såsom en summa af flera slags enheter,<lb/>
+               ock man således kan utfära divisionen särskilt uti<lb/> hvarje slag af enheter.<lb/>
+               <hi rend="indent">Om t. ex. 6852 skall divideras med 3, så divi-</hi><lb/> derar man
+               fört de 6 tusen med 3, då qvoten blir<lb/> 2 tusen; sedan dividerar man andra slaget
+               enheter<lb/> eller 8 hundra med 3, då man får till qvot 2 hun-<lb/> dra, och en rest
+               af 2 hundra, hvilken rest såsom<lb/> hundratal betraktad icke kan divideras med
+               3;<lb/> man upplöser den derföre i 20 tior; hvilka förende<lb/>
+            </p>
+         </div>
+         <pb n="25"/>
+         <div>
+            <p> med de 5 tiorna, som förut finnas i talet, utgöra 25<lb/> tior; och då dessa
+               divideras med 3, får man till qvot<lb/> 8 tior, samt till rest 1 tio, hvilket såsom
+               tiotal icke<lb/> kan divideras med 3; man upplöser det derföre i tio<lb/> enheter,
+               hvilka förenade med de två enheterna, som<lb/> talet förut innehåller, utgöra 12
+               enheter; och då <lb/> dessa divideras med 3, får man till qvot 4 enheter.<lb/> Hela
+               den sökta qvoten blir då lika med summan af<lb/> alla dessa qvoter, nemligen 2 tusen,
+               2 hundra, 8<lb/> tior och 4 enheter eller 2284. <lb/>
+               <hi rend="indent">Likaledes om t. ex. 45888 skall divideras med</hi><lb/> 12, så kan
+               man icke dividera 4 tio-tusen såsom tio­<lb/> tusental betraktade, utan måste förena
+               dem med nä­<lb/> sta slag af enheter till 45 tusen; och när dessa 45<lb/> tusen
+               divideras med 12, far man till qvot 3 tusen, <lb/> och en rest af 9 tusen, hvilken
+               förenas med nästa <lb/> slag af enheter till 98 hunda; när nu dessa divide­<lb/> ras
+               med 12, blir qvoten 8 hundra, och man får en<lb/> rest af 2 hundra, som förenas med
+               nästa slag af<lb/> enheter till 28 tior, hvilka, då de divideras med 12,<lb/> gifva 2
+               tior till qvot, och 4 tior till rest; denna rest<lb/> förenas åter med nästa slag af
+               enheter till 48 enhe­<lb/> ter, hvilka nu divideras med 12, då qvoten blir 4<lb/>
+               enheter. Således blir hela qvoten lika med 3 tusen, <lb/> 8 hundra, 2 tior och 4
+               enheter eller 3823. <lb/>
+               <hi rend="indent">Härpå stödjer sig följande regel för division.</hi><lb/> Man
+               skrifver divisorn till venster om dividenden;<lb/> afräknar från venster till höger i
+               dividenden lika <lb/> många ziffror som finnas uti divisorn (eller en mera<lb/> om
+               divisorn är, större än dividendens afräknade <lb/> ziffror) och undersöker derefter
+               huru många gånger<lb/> divisorns första ziffra innehålles i dividendens första <lb/>
+               ziffra (eller i de tvenne första). Det tal man då får,<lb/>
+               <note place="bottom" rend="small-font">Elem. af Arith. och Planin. 1
+                     Del.<num>4</num><locus>bottom right corner</locus></note>
+            </p>
+
+         </div>
+         <pb n="26"/>
+         <div>
+
+            <p> utgör första ziffran i qvoten och kan skrifvas till hö-<lb/> ger om dividenden; med
+               denna ziffra multipliceras<lb/> hela divisorn och producten subtraheras från de i
+               <lb/> dividenden afräknade ziffrorna. Till resten, som all-<lb/> tid bör vara mindre
+               än divisorn, nedflyttas följande<lb/> ziffra i dividenden och divideras å nyo. På
+               detta<lb/> sätt fortfares tills alla ziffrorna i dividenden blifvit<lb/> nedflytade,
+               och iakttages att för hvarje ziffra som<lb/> nedflytas, bör en komma i qvoten; men
+               skulle efter<lb/> skedd nedflyttning dividenden ändock vara mindre<lb/> än divisorn,
+               så skrifves noll i qvoten och. nästa <lb/> zifra nedflytas. <lb/>
+               <lg>
+                  <l n="1">1 Ex. 3) 6852 (2'J84 </l>
+                  <l n="2">6</l>
+                  <l n="3">---</l>
+                  <l n="4">8</l>
+                  <l n="5">6</l>
+                  <l n="6">---</l>
+                  <l n="7">25</l>
+                  <l n="8">24</l>
+                  <l n="8">---</l>
+                  <l n="9">12</l>
+                  <l n="10">12</l>
+                  <l n="11">---</l>
+                  <l n="12">0</l>
+                  <l n="13">2 Ex. 12) 45888 (3824</l>
+                  <l n="14">36</l>
+                  <l n="15">---</l>
+                  <l n="16">98</l>
+                  <l n="17">96</l>
+                  <l n="18">---</l>
+                  <l n="19">28</l>
+                  <l n="20">24</l>
+                  <l n="21">---</l>
+                  <l n="22">48</l>
+                  <l n="23">48</l>
+                  <l n="24">3 Ex. 247) 223288 (904</l>
+                  <l n="25">22´23</l>
+                  <l n="26">-------</l>
+                  <l n="27">988</l>
+                  <l n="28">988</l>
+                  <l n="29">----</l>
+               </lg>
+            </p>
+         </div>
+         <pb n="27"/>
+         <div>
+            <p><hi rend="center"> § 38. </hi><lb/>
+               <hi rend="indent">Om dividenden men icke divisorn slutas med en</hi><lb/> eller flere
+               noller och divisorn jemt innehålles uti di-<lb/> videndens gällande ziffror, så
+               behöfver man icke<lb/> göra afseende på nollerna, utan blott verkställa di­<lb/>
+               visionen uti de gällande ziffrorna och sedan vid slu­<lb/> tet af qvoten tillägga så
+               många noller som funnos i<lb/> slutet af dividenden.<lb/>
+               <hi rend="indent">Om t. ex. 6300 skall divideras med 3, så sker</hi><lb/> räkningen
+               på följande sätt:<lb/>
+               <lg>
+                  <l n="1">3) 6300 (210</l>
+                  <l n="2">6</l>
+                  <l n="3">---</l>
+                  <l n="4">3</l>
+                  <l n="5">3</l>
+                  <l n="6">---</l>
+               </lg>
+               <hi rend="indent">Ty då inneLalles 21 gånger uti 63, så måste</hi><lb/> 3 uti 6300,
+               som är hundra gånger större än 63,<lb/> också innehållas hundra gånger mer; det vill
+               säga:<lb/> 2100 gånger.<lb/>
+               <hi rend="center"> § 39.</hi>
+               <hi rend="indent">Om både divisorn och dividenden slutas med<lb/> noller, så kan man
+                  bortstryka lika många vid slutet<lb/> af hvardera och qvoten blir likväl</hi>
+               oförändraä; t. ex.<lb/> om 84000 skall divideras med 400, så är detta det­<lb/>samma
+               som att dividera 840 med 4; ty man har en­<lb/>dast derigenom förändrat enheternas
+               namn, och 4 en­<lb/>heter af första slaget måste innehållas uti 840 enhe­<lb/>ter af
+               första slaget lika många gånger som 4 enhe­<lb/>ter af tredje slaget eller 400
+               innehållas uti 840 en­<lb/>heter af tredje slaget eller 84000, emedan qvoten<lb/>
+               måste bli densamma, blott enheterna i divisorn och<lb/>i dividenden äro af samma
+               slag, hvilket detta slag<lb/> än må vara; t. ex.<lb/>
+            </p>
+         </div>
+         <pb n="28"/>
+         <div>
+            <p>
+               <lg>
+                  <l n="1">12500 )8100000( 648</l>
+                  <l n="2">750</l>
+                  <l n="3">-----</l>
+                  <l n="4">600</l>
+                  <l n="5">500</l>
+                  <l n="6">-----</l>
+                  <l n="7">1000</l>
+                  <l n="8">1000</l>
+                  <l n="9">----</l>
+
+               </lg><hi rend="center"> § 40. </hi><lb/><hi rend="indent"> Då talen 1, 2, 3, 4, 5, 6,
+                  7, 8, 9, 10, 11 o.</hi><lb/> s. v. äro upplftällde i den ordning de uppkomma
+               ge­<lb/>nom det man successift lägger 1 till hvarje forutgå­<lb/>ende tal, så är
+               klart att blott hvartannat tal, eller<lb/> blott de så kallade jemna talen kunna
+               divideras med<lb/> 2, hvart 3:dje med 3; hvart 4:de med 4, o. s. v.<lb/><hi
+                  rend="indent"> Det gifves således flera tal, som icke kunna di­</hi><lb/>videras
+               med något annat tal (utom det att de kunna<lb/> divideras med sig sjelfva då qvoten
+               blir 1). Sålane<lb/> äro 1, 2, 3, 5, 7, Il, 13, 17, 19, 23, 29 o. s. v.<lb/> Dessa
+               tal kallas primtal.<lb/>
+               <hi rend="indent">De andra talen 4, 6, 8, 9, 10, 12, 14, 15,</hi><lb/> 16, 18, o. s.
+               v. hvika alla kunna divideras med en<lb/> eller flera mindre divisorer, och således
+               kunna an­<lb/>ses såsom producter af två eller flera smärre tal,<lb/> eller af ett
+               och samma tal multipliceradt med sig <lb/>sjelf, kallas sammansatta. Dessutom sägas
+               två så­<lb/>dana tal, som icke äga några gemensamma diviso­<lb/>rer, vara sins
+               emellan primtal. Så äro t. ex. talen<lb/> 12 och 35 samt talen 7 och 15 sins emellan primtal.<lb/>
+               <hi rend="center"> § 41. </hi><lb/>
+               <hi rend="indent">De smärre talen, af hvilka ett sammansatt tal</hi><lb/> anses såsom
+               product, kunna antingen vara primtal<lb/> eller sammansatta. I senare fallet måste de
+               åter<lb/>
+            </p>
+            <pb n="29"/>
+            <div>
+               <p> kunna anses såsom producter, och upplösas i de<lb/> factorer, af hvilka de äro
+                  sammansatta; och om nå­<lb/>gra af dessa sista factorer äfven äro
+                  sammansatta,<lb/> måste de likaledes kunna upplösas o. s. v., ända<lb/> till ess
+                  alla factorer blifva primtal. T. ex. 24=2.12;<lb/> men 12 är 2.6 således är
+                  24=2.2.6; nu är 6=2,3<lb/>och sålades blir 24=2.2.2.3 </p>
+            </div>
+         </div>
+
+
+
+
+
+      </body>
+   </text>
+</TEI>
