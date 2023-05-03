@@ -8,11 +8,11 @@
          <titleStmt>
             <title>ELEMENTERNA AF ARITHMETIkEN OCH PLANIMETRIEN</title>
             <author>P. E. Cronhielm</author>
-            <principal>Francisco Ferer</principal>
+            <principal>Francisco Ferrer</principal>
             <principal>Esther Pocock</principal>
             <respStmt>
                <resp>Scaning, OCR, text correction,encoding, TEI, XML, HTML and publication </resp>
-               <name>Francisco Ferer</name>
+               <name>Francisco Ferrer</name>
                <name>Esther Pocock</name>
             </respStmt>
          </titleStmt>
@@ -39,7 +39,7 @@
          <notesStmt>
             <note>TEI encoding language: English</note>
             <note>Transcribed as part a University assignment, on this first edition only the first
-               chapter is included, with scope to digitised the whle book at a later stage.</note>
+               chapter is included, with scope to digitise the whle book at a later stage.</note>
 
          </notesStmt>
          <sourceDesc>
@@ -66,16 +66,16 @@
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p>This is a digitisaiton project for the Digitising Cultural Heritage Material course
-               as part of the Masters in Digital Libraries from University of Borås, Sweden.</p>
+            <p>This is a digitisation project for the Digitising Cultural Heritage Material course
+               as part of the Master's Programme, Library and Information Science, Digital Library and Information Services, from University of Borås, Sweden.</p>
          </projectDesc>
          <editorialDecl>
             <correction>
                <p>Apparent errors on the OCR output have been corrected but not marked in the
-                  trascribed text</p>
+                  transcribed text</p>
             </correction>
             <normalization>
-               <p>Some mathematial expressions have been trascribed as text although tring to
+               <p>Some mathematial expressions have been transcribed as text although trying to
                   preserve the original layout</p>
             </normalization>
          </editorialDecl>
@@ -86,7 +86,7 @@
             <date>1843</date>
          </creation>
          <handNotes>
-            <handNote xml:id="FF">Orinal text writen in old Swedish.</handNote>
+            <handNote xml:id="FF">Original text writen in old Swedish.</handNote>
          </handNotes>
          <langUsage>
             <language ident="sw">Swedish</language>
@@ -147,7 +147,7 @@
             <p>CHALMERSKA Slöide SEDAN <stamp>seal</stamp>
                <locus>bottom right corner</locus></p>
             <!-- I think this is what the hand written text says, hard to read -->
-            <p><handShift medium="black ink writen with fountain pen"/>t <note type="handwritting"
+            <p><handShift medium="black ink writen with fountain pen"/>t <note type="handwriting"
                   >hand written</note> Chalmerska Slöide Skola Exemplar N 81 <locus>on the top the
                   title page</locus>
             </p>
@@ -478,7 +478,7 @@
                allmänhet be-<lb/> tecknar a-b den rest man far, då b tages från a; a-b-c den rest
                man får, då man från a först<lb/> subtraherar b och sedan från resten subtraherar
                c,<lb/> o.s.v.<lb/>
-               <!-- there is an error in the sourse it says §3 when it shold be §20 -->
+               <!-- there is an error in the sourse it says §3 when it should be §20 -->
                <hi rend="center"><choice>
                   <sic>§3.</sic>
                   <corr>§20.</corr></choice><note type="editorial">Origianl source has an error:'§3' when it should be '§20' </note>
