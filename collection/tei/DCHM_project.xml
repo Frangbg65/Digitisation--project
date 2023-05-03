@@ -30,7 +30,7 @@
                   <country>Sweden</country>
                </address>
             </pubPlace>
-            <!-- I'm not sure if this goes here it goes in the source.Desc  -->
+            <!-- I'm not sure if this goes here or it goes in the source.Desc  -->
             <distributor>Chalmers Tekniska Högskolas Bibliotek</distributor>
             <availability status="free">
                <p> In the public domain </p>
@@ -156,7 +156,7 @@
       </front>
 
       <body>
-         <!-- blank page -->
+        
          <pb/>
 
 
