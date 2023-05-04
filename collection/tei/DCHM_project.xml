@@ -106,7 +106,12 @@
 
 
    </teiHeader>
-
+   <facsimile>
+      <surface xml:id="p1">
+         <graphic 
+            url="../img/1.jp2"></graphic>
+      </surface>
+   </facsimile>
    <text xml:lang="sv">
       <front>
          <note n="library_reference_label" place="back_of_front_cover">Chalmers Tekniska Högskola
