@@ -375,9 +375,9 @@
 
          <div n="6" type="page" rend="justify" facs="p6">
          <p>
-            <hi rend="center" style="caps">ANMÄLAN</hi></lb></p>
-               <space></space>
-               <p> 
+            <hi rend="center" style="caps">ANMÄLAN</hi> <lb/>
+               
+              
                <emph rend="italics">Behofvet att bringa i samband de mathe-<lb/> matiska
                kurser, som följas vid Artilleriets<lb/> undervisningsverk, har gifvit anledning till
                <lb/> utgifvande af detta arbete. Man har der- <lb/> före i afseende på ordningen, så
@@ -388,8 +388,8 @@
                till ledning sist- <lb/> nämde verk samt Lacroix's och Bezout's. <lb/> Planinmetrien
                åter är, med några ändringar <lb/> förorsakade af proportions-lärans olika be- <lb/>
                handling, en del utlemningar och några <lb/> tillägg, helt och hållet Professor
-               Harfve- <lb/> feldts. </emph><lb/></p>
-               <p><hi rend="indent"><emph rend="italics">Man vågar får öfrigt tro att arbetet,</emph></hi><lb/> ehuru egentligen
+               Harfve- <lb/> feldts. </emph><lb/>
+               <hi rend="indent"><emph rend="italics">Man vågar får öfrigt tro att arbetet,</emph></hi><lb/> ehuru egentligen
                <emph rend="italics"> för en viss klass <lb/> af lärande, icke skall sakna användbarhet <lb/> vid
                undervisningen i allmänhet. Det fram- <lb/> ståller på ett kort och, som man vill
                hop- <lb/> pas, lättfattligt sätt, Arithmetikens teori, åt <lb/> hvilken man vid vid
@@ -397,7 +397,7 @@
                uppmärksamhet, men som likväl är af stör- <lb/> sta nytta, icke allenast för den, som
                vill <lb/> vinna en grundligare insigt i den egentliga <lb/> Arithmetiken, utan äfven
                såsom en tjenlig <lb/> förberedelse till Algebrans studerande. Pla- </emph><lb/>
-            </p>
+         </p>
 
 
          </div>
