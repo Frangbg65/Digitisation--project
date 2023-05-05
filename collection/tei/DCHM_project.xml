@@ -633,24 +633,24 @@
          <div n="16" facs="p16" type="page" rend="justify">
             <p>
                <metamark function="pagenumber" place="top-right"><num rend="top-right">9</num></metamark><lb/>
-               <hi rend="caps">FÖRSTA CAPITLET,</hi><lb/> Quatuor Species i hela Tal.<lb/>
+               <hi rend="caps">FÖRSTA CAPITLET,</hi><lb/><emph rend="italics"> Quatuor Species i hela Tal.</emph><lb/>
                <hi rend="center"> § 14. </hi><lb/>
                <hi rend="indent">Det är förut nämdt,(2) att allt hvad som kan</hi><lb/> få namn af
                qvantitet, måste kunna, genom likartade<lb/> delars tilläggande eller borttagande,
-               ökas eller minskas.<lb/> Ett tal kan ökas derigenom, att man tillsåtter<lb/> ett
+               ökas eller min-<lb/>skas. Ett tal kan ökas derigenom, att man tillsätter<lb/> ett
                eller flera andra tal. Denna operation, hvarigenom<lb/> två eller flera tal förenas
-               till et enda, kallas<lb/> Addition.<lb/>
+               till et enda, kallas<lb/><emph rend="italics">Addition</emph>.<lb/>
                <hi rend="indent">Att addera är således: att sammanlägga två eller</hi><lb/> Flera
-               tal tillett enda, eller att söka att tal, som är<lb/> Lika med två eller flera tal
-               tillhopa.<lb/> Detta tal kallas då Summa af de sammanlagda<lb/> talen<lb/>
+               tal till ett enda, eller att söka att tal, som är<lb/> lika med två eller flera tal
+               tillhopa.<lb/> Detta tal kallas då <emph rend="italics">Summa</emph> af de sammanlagda<lb/> talen<lb/>
                <hi rend="center"> § 15. </hi><lb/>
                <hi rend="indent">För att beteckna en summa, eller, ett tal,som</hi><lb/> uppkommer
                då några tal adderas, sätter man teck-<lb/> net + mellan dessa sednare, och detta
-               tecken kal-<lb/> las plus. Om t. ex. 4 skall adderas till 7, så be-<lb/> Tecknas
+               tecken kal-<lb/> las <emph rend="italics">plus</emph>. Om t. ex. 4 skall adderas till 7, så be-<lb/> Tecknas
                detta med 4+7. Om till 7 skall först ad-<lb/> deras 4 sedan till summan skall adderas
-               9, så<lb/> betecknas det med 4+7+9. Och i allmänhet om b<lb/> skall adderas till a,
-               betecknas detta med a+b, och<lb/> om till summa vidare skall adderas c, så be-
-               tecknas sådant med a+b+c.<lb/>
+               9, så<lb/> betecknas det med 4+7+9. Och i allmänhet om <emph rend="italics">b</emph><lb/> skall adderas till <emph rend="italics">a</emph>,
+               betecknas detta med <emph rend="italics">a+b</emph>, och<lb/> om till summa vidare skall adderas <emph rend="italics">c</emph>, så be-
+               tecknas sådant med <emph rend="italics">a+b+c</emph>.<lb/>
                <hi rend="center"> § 16. </hi><lb/>
                <hi rend="indent">Då bestämda tal (ziffer-tal), som bestå af enkla</hi>
                <lb/> ziffror, skola adderas, så är det naturligt att man i<lb/>
