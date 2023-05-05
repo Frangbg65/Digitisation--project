@@ -63,7 +63,7 @@
                </monogr>
                <relatedItem>
                   <bibl>The source of this digital resource is the only known copy deposit at
-                        <distributor>Chalmers University Librar </distributor></bibl>
+                        <distributor>Chalmers University Library </distributor></bibl>
                </relatedItem>
             </biblStruct>
          </sourceDesc>
@@ -315,7 +315,7 @@
          <pb/>
          <!-- here is the back of the fromt cover -->
          <div n="1" facs="p1">
-            <note n="library_reference_label" place="back_of_front_cover">Chalmers Tekniska Högskola
+            <note n="library_reference_label" place="back_of_front_cover" rend="top-left">Chalmers Tekniska Högskola
                Bibliotek V258</note>
 
          </div>
@@ -329,14 +329,12 @@
          <div n="4" type="titlePage" facs="p4" rend="justify">
             <!-- I think this is what the hand written text says, hard to read -->
             <p>
-               <handShift medium="black ink writen with fountain pen"/><note type="handwriting"
-               >hand written</note> Chalmerska Slöide Skola Exemplar N 81 <locus>on the top the
-                  title page</locus>
+               <handShift medium="black ink writen with fountain pen"/><note type="handwriting" rend="top" 
+               ></note> Chalmerska Slöide Skola Exemplar N 81 
             </p>
             
                <p rend="large caps">ELEMENTERNA<lb/> AF<lb/> ARITHMETIKEN OCH PLANIMETRIEN,<lb/>
-               </p>
-            <p>
+              
             UTGIFNE AF<lb/>
             
             
@@ -345,7 +343,7 @@
                   <forename>E.</forename>
                   <surname>Cronhielm,</surname><lb/>
                   <roleName rend="small caps">MAYOR VID KONGL, <placeName>WESTGÖTA DALS
-                  REG:TE</placeName></roleName><lb/>
+                  REG:TE.</placeName></roleName><lb/>
                </persName>
             
          
@@ -372,10 +370,10 @@
             
                <date>1834</date><lb/></p>
             
-            <p>CHALMERS TECKISKA HÖGSKOLA BIBLIOTEK <stamp>seal</stamp>
-               <locus>bottom left corner</locus></p>
-            <p>CHALMERSKA Slöide SEDAN <stamp>seal</stamp>
-               <locus>bottom right corner</locus></p>
+            <p><stamp type="seal" rend="bottom-left">CHALMERS TECKISKA HÖGSKOLA BIBLIOTEK </stamp>
+               </p>
+            <p><stamp type="seal" rend="bottom-right">CHALMERSKA Slöide SEDAN seal</stamp>
+               </p>
             
 
          </div>
@@ -439,8 +437,8 @@
                <hi rend="indent">Närvarande 2:dra upplaga är öfversedd </hi><lb/> och tillökt med
                några geometriska satser.</emph><lb/>
             </p>
-            <note place="bottom" type="layout">Horizontal line in the middle of the source
-               document</note>
+            <ab rend="center-bottom">------------</ab>
+            
             <pb/>
          </div>
 
@@ -450,8 +448,8 @@
                <hi style="font-variant:extra-large-caps; text-align=center">ARITHMETIK</hi>
             </head>
             <p>
-               <note place="bottom" rend="small-font">Elem. af Arith. och Planin. 1
-                     Del.<num>1</num><locus>bottom right corner</locus></note>
+               <note place="bottom-left" rend="small-font">Elem. af Arith. och Planin. 1
+                     Del.<num rend="bottom-right">1</num></note>
             </p>
          </div>
          <!-- blank page -->
@@ -487,7 +485,7 @@
          </div>
          <pb/>
          <div n="11" facs="p11" type="page" rend="justify">
-            <p><metamark function="pagenumber" place="top-left"><num rend="top-left">4</num></metamark><lb/>sträcktaste
+            <p><metamark function="pagenumber" place="top-left"><num rend="top-left" n="4">4</num></metamark><lb/>sträcktaste
                betydelse; den andra, eller vetenskapen<lb/> om storheter som äro utsträckta i
                rummet, kallas<lb/> <emph rend="italics">Geometrie</emph>. <hi rend="center"> § 5. </hi><lb/>
                <hi rend="indent">Då man föreställer sig flera föremål utaf samma</hi><lb/> slag
@@ -630,7 +628,7 @@
          <div n="16" facs="p16" type="page" rend="justify">
             <p>
                <metamark function="pagenumber" place="top-right"><num rend="top-right">9</num></metamark><lb/>
-               <hi rend="caps">rend="cap"FÖRSTA CAPITLET,</hi><lb/> Quatuor Species i hela Tal.<lb/>
+               <hi rend="caps">FÖRSTA CAPITLET,</hi><lb/> Quatuor Species i hela Tal.<lb/>
                <hi rend="center"> § 14. </hi><lb/>
                <hi rend="indent">Det är förut nämdt,(2) att allt hvad som kan</hi><lb/> få namn af
                qvantitet, måste kunna, genom likartade<lb/> delars tilläggande eller borttagande,
@@ -652,7 +650,7 @@
                <hi rend="indent">Då bestämda tal (ziffer-tal), som bestå af enkla</hi>
                <lb/> ziffror, skola adderas, så är det naturligt att man i<lb/>
                <note place="bottom" rend="small-font">Elem. af Arith. och Planin. 1
-                     Del.<num>2</num><locus>bottom right corner</locus></note>
+                     Del.<num rend="bottom-right">2</num></note>
             </p>
          </div>
          <pb/>
@@ -713,7 +711,7 @@
          <div n="19" facs="p19" type="page" rend="justify">
             <p>
                <metamark function="pagenumber" place="top-left"><num rend="top-left">12</num></metamark><lb/>
-               <hi rend="center"> § 19.></hi>
+               <hi rend="center"> § 19.</hi>
                <lb/>
                <hi rend="indent">För att beteckna en sådan rest sätter man teck-</hi><lb/> net -,
                som kallas minus, emellan de två talen; och<lb/> det så, att det talet, som skall
