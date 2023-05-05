@@ -485,7 +485,7 @@
          </div>
          <pb/>
          <div n="11" facs="p11" type="page" rend="justify">
-            <p><metamark function="pagenumber" place="top-left"><num rend="top-left" n="4">4</num></metamark><lb/>sträcktaste
+            <pb rend="top-left" n="4"/> <p>sträcktaste
                betydelse; den andra, eller vetenskapen<lb/> om storheter som äro utsträckta i
                rummet, kallas<lb/> <emph rend="italics">Geometrie</emph>. <hi rend="center"> § 5. </hi><lb/>
                <hi rend="indent">Då man föreställer sig flera föremål utaf samma</hi><lb/> slag
