@@ -43,10 +43,14 @@
 
          </notesStmt>
          <sourceDesc>
+            <bibl>
+               <extent>Chapter 1 only</extent>
+               <author>P.E Cronhielm</author>
+            </bibl>
             <biblStruct>
+    
                <analytic>
-                  <title>Chapter One</title>
-                  <author>P.E Cronhielm</author>
+                  
                </analytic>
                <monogr>
                   <imprint>
@@ -101,8 +105,7 @@
          <change when="2023-04-01">
             <persName>Francisco Ferrer &amp; Esther Pocock</persName> created header.</change>
          <change when="1843">
-            <persName>P. E. Cronhielm</persName>revised and dded first edition of<title>ELEMENTERNA
-               AF ARITHMETIkEN OCH PLANIMETRIEN</title>book.</change>
+            <persName>P. E. Cronhielm</persName>revised and dded first edition .</change>
       </revisionDesc>
 
 
@@ -329,10 +332,11 @@
                <handShift medium="black ink writen with fountain pen"/><note type="handwriting"
                >hand written</note> Chalmerska Slöide Skola Exemplar N 81 <locus>on the top the
                   title page</locus>
+            </p>
             
-               <title rend="large caps">ELEMENTERNA<lb/> AF<lb/> ARITHMETIKEN OCH PLANIMETRIEN,<lb/>
-               </title>
-            
+               <p rend="large caps">ELEMENTERNA<lb/> AF<lb/> ARITHMETIKEN OCH PLANIMETRIEN,<lb/>
+               </p>
+            <p>
             UTGIFNE AF<lb/>
             
             

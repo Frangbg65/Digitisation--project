@@ -12,7 +12,7 @@
                 <title>
                     <!-- add the title from the metadata. This is what will be shown
                     on your browsers tab-->
-                    frankensTEIn: Reading Text
+                    Elementerna af Arithmetiken och Planimetrien: Reading Text
                 </title>
                 <!-- load bootstrap css (requires internet!) so you can use their pre-defined css classes to style your html -->
                 <link rel="stylesheet"
@@ -77,7 +77,7 @@
                         </a>
                       </div>
                       <div>
-                         2022 Wout Dillen.
+                          2023 Esther Pocock and Francico Ferrer.
                       </div>
                     </div>
                 </div>
