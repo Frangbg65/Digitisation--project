@@ -323,45 +323,56 @@
          <!-- blank page -->
          <div n="3" facs="p3"/>
          <pb/>
-         <div n="4" type="titlePage" facs="p4">
-
-            <head>
-               <title>ELEMENTERNA<lb/> AF<lb/> ARITHMETIKEN OCH PLANIMETRIEN,<lb/>
+         <div n="4" type="titlePage" facs="p4" rend="justify">
+            <!-- I think this is what the hand written text says, hard to read -->
+            <p>
+               <handShift medium="black ink writen with fountain pen"/><note type="handwriting"
+               >hand written</note> Chalmerska Slöide Skola Exemplar N 81 <locus>on the top the
+                  title page</locus>
+            
+               <title rend="large caps">ELEMENTERNA<lb/> AF<lb/> ARITHMETIKEN OCH PLANIMETRIEN,<lb/>
                </title>
-            </head>
-            <byline>UTGIFNE AF</byline>
-            <lb/>
-            <docAuthor>
+            
+            UTGIFNE AF<lb/>
+            
+            
                <persName>
                   <forename>P.</forename>
                   <forename>E.</forename>
                   <surname>Cronhielm,</surname><lb/>
-                  <roleName>MAYOR VID KONGL, <placeName>WESTGÖTA DALS
+                  <roleName rend="small caps">MAYOR VID KONGL, <placeName>WESTGÖTA DALS
                   REG:TE</placeName></roleName><lb/>
                </persName>
-            </docAuthor>
+            
+         
+               <note rend="small caps">L. K. K. W. A.</note>
+            <lb/>
+               <space></space>
+            </p>
+           
+               <ab>--------------</ab>
             <p>
-               <note>L. K. K. W. A.</note></p>
+            Andra Upplagan,
             <lb/>
-            <p>Andra Upplagan</p>
+            Öfversedd och tillök.
             <lb/>
-            <p>Öfversedd och tillök.</p>
+            </p>
+               <ab>-------------</ab>
+            <space></space>
+            <!-- here ther is a double thick line accross the page -->
+            <ab>----------------------------</ab>
+            <p rend="caps"><placeName>CHRISTIANSTAD.</placeName>
             <lb/>
-            <p><placeName>CHRISTIANSTAD.</placeName></p>
+            Trickt på L. Littorins förlag hos Schmidt &amp; Comp.
             <lb/>
-            <p>Trickt på L. Littorins förlag hos Schmidt &amp; Comp.</p>
-            <lb/>
-            <p>
-               <date>1834</date></p>
+            
+               <date>1834</date><lb/></p>
+            
             <p>CHALMERS TECKISKA HÖGSKOLA BIBLIOTEK <stamp>seal</stamp>
                <locus>bottom left corner</locus></p>
             <p>CHALMERSKA Slöide SEDAN <stamp>seal</stamp>
                <locus>bottom right corner</locus></p>
-            <!-- I think this is what the hand written text says, hard to read -->
-            <p><handShift medium="black ink writen with fountain pen"/>t <note type="handwriting"
-                  >hand written</note> Chalmerska Slöide Skola Exemplar N 81 <locus>on the top the
-                  title page</locus>
-            </p>
+            
 
          </div>
          <pb/>
@@ -472,7 +483,7 @@
          </div>
          <pb/>
          <div n="11" facs="p11" type="page" rend="justify">
-            <p><metamark function="pagenumber" place="top-left"><num>4</num></metamark>sträcktaste
+            <p><metamark function="pagenumber" place="top-left"><num rend="top-left">4</num></metamark><lb/>sträcktaste
                betydelse; den andra, eller vetenskapen<lb/> om storheter som äro utsträckta i
                rummet, kallas<lb/> <emph rend="italics">Geometrie</emph>. <hi rend="center"> § 5. </hi><lb/>
                <hi rend="indent">Då man föreställer sig flera föremål utaf samma</hi><lb/> slag
@@ -499,7 +510,7 @@
          <pb/>
          <div n="12" facs="p12" type="page" rend="justify">
             <p>
-               <metamark function="pagenumber" place="top-right"><num>5</num></metamark>
+               <metamark function="pagenumber" place="top-right"><num rend="top-right">5</num></metamark><lb/>
                <hi rend="indent">Om man på detta sätt fortfar att lägga ett till</hi><lb/> hvarje
                näst föregående förening, så uppkomma efter<lb/> hand de tal, som kallas <emph rend="italics">fyra, fem,
                sex, sju, åtta,<lb/> nio</emph> och som betecknas med 4, 5, 6, 7, 8, 9.<lb/>
@@ -529,7 +540,7 @@
          <pb/>
          <div n="13" facs="p13" type="page" rend="justify">
             <p>
-               <metamark function="pagenumber" place="top-left"><num>6</num></metamark> sammanfattas
+               <metamark function="pagenumber" place="top-left"><num rend="top-left">6</num></metamark><lb/> sammanfattas
                till en enhet, som kallas <emph rend="italics">ett hundra</emph><lb/> och betecknas med 100.<lb/>
                <hi rend="indent">Af denna sista enhet (ett hundra) uppkomma</hi><lb/> nu likaledes
                successivt de tal, som kallas <emph rend="italics">två hundra</emph>,<lb/> tre hundra o. s. v. och betecknas med
@@ -556,7 +567,7 @@
          <pb/>
          <div n="14" facs="p14" type="page" rend="justify">
             <p>
-               <metamark function="pagenumber" place="top-right"><num>7</num></metamark>
+               <metamark function="pagenumber" place="top-right"><num rend="top-right">7</num></metamark><lb/>
                <hi rend="center"> § 10. </hi><lb/>
                <hi rend="indent">Skulle några slag af de lägre enheterna fattas,</hi><lb/> så
                uppfyller man med nollor de platser, som de<lb/> skule intaga.<lb/>
@@ -585,7 +596,7 @@
          <pb/>
          <div n="15" facs="p15" type="page" rend="justify">
             <p>
-               <metamark function="pagenumber" place="top-left"><num>8</num></metamark> v., af de
+               <metamark function="pagenumber" place="top-left"><num rend="top-left">8</num></metamark><lb/> v., af de
                öfriga ziffrorne utnämnes den som har ett<lb/> comma efter sig, med tusen, den som
                följer efter<lb/> comma, med hundra, den dernäst med tior och den<lb/> derefter med
                enheter. På detta sätt indeladt får talet<lb/> 543207009546873 följande utseende
@@ -614,7 +625,7 @@
          <pb/>
          <div n="16" facs="p16" type="page" rend="justify">
             <p>
-               <metamark function="pagenumber" place="top-right"><num>9</num></metamark>
+               <metamark function="pagenumber" place="top-right"><num rend="top-right">9</num></metamark><lb/>
                <hi rend="caps">rend="cap"FÖRSTA CAPITLET,</hi><lb/> Quatuor Species i hela Tal.<lb/>
                <hi rend="center"> § 14. </hi><lb/>
                <hi rend="indent">Det är förut nämdt,(2) att allt hvad som kan</hi><lb/> få namn af
@@ -642,7 +653,7 @@
          </div>
          <pb/>
          <div n="17" facs="p17" type="page" rend="justify">
-            <p><metamark function="pagenumber" place="top-left"><num>10</num></metamark> tankarne
+            <p><metamark function="pagenumber" place="top-left"><num rend="top-left">10</num></metamark><lb/> tankarne
                sammanräknar enheterna till en summa;<lb/> så blir t. ex. 7 + 4 = 11 ; 5 + 8 + 9 =
                22; o. s. v.<lb/>
                <hi rend="center"> § 17. </hi><lb/>
@@ -671,7 +682,7 @@
          </div>
          <pb/>
          <div n="18" facs="p18" type="page" rend="justify">
-            <p><metamark function="pagenumber" place="top-right"><num>11</num></metamark> Och fyra
+            <p><metamark function="pagenumber" place="top-right"><num rend="top-right">11</num></metamark><lb/> Och fyra
                enheter, af hvilka blott de fyra enheterna<lb/> upptecknas under enheternas column;
                de två tiorna<lb/> förenas med summan af tiorna i andra columnen,<lb/> som derigenom
                blir 2+8+5+4 eller 19 tior, hvilka<lb/> åta utgöra 1 hundra och 9 tior, hvaraf blott
@@ -697,7 +708,7 @@
          <pb/>
          <div n="19" facs="p19" type="page" rend="justify">
             <p>
-               <metamark function="pagenumber" place="top-left"><num>12</num></metamark>
+               <metamark function="pagenumber" place="top-left"><num rend="top-left">12</num></metamark><lb/>
                <hi rend="center"> § 19.></hi>
                <lb/>
                <hi rend="indent">För att beteckna en sådan rest sätter man teck-</hi><lb/> net -,
@@ -734,8 +745,8 @@
          <pb/>
          <div n="'20" facs="p20" type="page" rend="justify">
             <p>
-               <metamark function="pagenumber" place="top-right"><num>13</num></metamark> der
-               hundraden o.s.v. Således om man t. ex. från<lb/> 789 skall subtrahera . . . . . . . .
+               <metamark function="pagenumber" place="top-right"><num rend="top-right">13</num></metamark><lb/> 
+               der hundraden o.s.v. Således om man t. ex. från<lb/> 789 skall subtrahera . . . . . . . .
                .<lb/> 435, så tager man först 5 enheter från de 9 enhe-<lb/> terna i det förra
                talet, hvaraf resten blir 4 enheter;<lb/> sedan tager man 3 tior från de 8 tiorna i
                samma<lb/> Tal, hvaraf resten blir 5 tior; slutligen tages 4 hun-<lb/> dra ifrån de 7
@@ -763,7 +774,7 @@
          <pb/>
          <div n="21" facs="p21" type="page" rend="justify">
             <p>
-               <metamark function="pagenumber" place="top-left"><num>14</num></metamark> man nu taga
+               <metamark function="pagenumber" place="top-left"><num rend="top-left">14</num></metamark><lb/> man nu taga
                ett af de 7 tusen-talen och upplösa det<lb/> i sina tio hundratal, hvaraf blir
                inalles 15 hundra,<lb/> och då nu 7 hundra subtraheras derifrån, blir resten<lb/> 8
                hundra; ifrån de 6 tusen-talen kunna nu 4 tusen<lb/> subtraheras och resten blir 2
@@ -793,7 +804,8 @@
          <pb/>
          <div n="22" facs="p22" type="page" rend="justify">
             <p>
-               <metamark function="pagenumber" place="top-right"><num>15</num></metamark>
+               <metamark function="pagenumber" place="top-right"><num rend="top-right">15</num></metamark><lb/>
+              
                <hi rend="indent">Således betecknar t. ex. 3x4 eller 3.4 det-</hi><lb/> samma som 4
                gånger 3, eller den product man får,<lb/> då 3 multipliceras med 4. Likaledes
                betecknar 3.4.5<lb/> den product man får, då 3 multipliceras med 4 och<lb/>
@@ -821,7 +833,7 @@
          <pb/>
          <div n="23" facs="p23" type="page" rend="justify">
             <p>
-               <metamark function="pagenumber" place="top-left"><num>16</num></metamark>
+               <metamark function="pagenumber" place="top-left"><num rend="top-left">16</num></metamark><lb/>
                <!-- the whole sum is enclosed in large {} and slightly indented in the source--> 4 =
                1 + 1 + 1 + 1<lb/> 4 = 1 + 1 + 1 + 1<lb/> 4 = 1 + 1 + 1 + 1<lb/> 4 = 1 + 1 + 1 + 1
                och adderar alla fyror,<lb/> 4 = 1 + 1 + 1 + 1<lb/> 4.5= 5 + 5 + 5 + 5 <lb/> som äro
@@ -848,7 +860,7 @@
          </div>
          <pb/>
          <div n="24" facs="p24" type="page" rend="justify">
-            <p><metamark function="pagenumber" place="top-right"><num>17</num></metamark> 7.4 eller
+            <p><metamark function="pagenumber" place="top-right"><num rend="top-right">17</num></metamark><lb/> 7.4 eller
                4.7 utaf hvar column; och efter columner­<lb/> nas antal äro fem, så blifva alla
                dessa 4.7 tillsam-<lb/> mantagne lika med 5 gånger 4.7 eller 4.7.5, följakt­<lb/>
                ligen är 4.7.5 = 4.5.7. <hi rend="center"> § 25. </hi><lb/><lb/> Att multiplicera
@@ -971,7 +983,8 @@
          <pb/>
          <div n="25" facs="p25" type="page" rend="justify">
             <p>
-               <metamark function="pagenumber" place="top-left"><num>18</num></metamark>
+               <metamark function="pagenumber" place="top-left"><num rend="top-left">18</num></metamark><lb/>
+               
                <hi rend="center"> § 26. </hi><lb/><lb/>
                <hi rend="indent">Om summan af två eller flera tal multipliceras</hi>­<lb/> med ett
                annat, så blir producten lika med summan­<lb/> af de producter man får då hvardera af
@@ -1000,7 +1013,7 @@
          <pb/>
          <div n="26" facs="p26" type="page" rend="justify">
             <p>
-               <metamark function="pagenumber" place="top-right"><num>19</num></metamark>
+               <metamark function="pagenumber" place="top-right"><num rend="top-right">19</num></metamark><lb/>
                <hi rend="center"> § 28. </hi><lb/><lb/> Då ett tall, som består af flera ziffror,
                skall multipliceras med en enkel ziffra, uppskrifves multi- plicatorn under
                multiplicanden; sedan börjar man från höger till venster att multiplicera hvarje
@@ -1032,7 +1045,7 @@
          </div>
          <pb/>
          <div n="27" facs="p27" type="page" rend="justify">
-            <p><metamark function="pagenumber" place="top-left"><num>20</num></metamark> ziffror, så
+            <p><metamark function="pagenumber" place="top-left"><num rend="top-left">20</num></metamark><lb/> ziffror, så
                skrifvas factoferna under hvarandra; se-<lb/> dan multipliceras hela det öfra talet
                med hvarje ziffra<lb/> i det nedra från höger till venster, då man erhåller<lb/> så
                många producter som ziffrör finnas i detta se­<lb/> nare; dessa producter uppskrifvas
@@ -1071,7 +1084,7 @@
          </div>
          <pb/>
          <div n="28" facs="p28" type="page" rend="justify">
-            <p><metamark function="pagenumber" place="top-right"><num>21</num></metamark>
+            <p><metamark function="pagenumber" place="top-right"><num rend="top-right">21</num></metamark><lb/>
                <lg>
                   <l n="1">520</l>
                   <l n="2">35</l>
@@ -1111,7 +1124,7 @@
          <pb/>
          <div n="29" facs="p29" type="page" rend="justify">
             <p>
-               <metamark function="pagenumber" place="top-left"><num>22</num></metamark> det sökta
+               <metamark function="pagenumber" place="top-left"><num rend="top-left">22</num></metamark><lb/> det sökta
                talet, kallas divisor, och det sökta talet<lb/> sjelf, som är 2 gånger mindre än 8,
                eller som ut­<lb/> märket storleken af hvar del man fåkr då ett tal 8<lb/> delas i 2
                lika stora delar, kallas qvot.<lb/>
@@ -1139,7 +1152,7 @@
          </div>
          <pb/>
          <div n="30" facs="p30" type="page" rend="justify">
-            <p><metamark function="pagenumber" place="top-right"><num>23</num></metamark> pad
+            <p><metamark function="pagenumber" place="top-right"><num rend="top-right">23</num></metamark><lb/> pad
                addition, så kan äfven division föreställas ge­<lb/> nom en upprepad subtraction. Om
                man t. ex. vill<lb/> veta huru många gånger 16 innehålles uti 64, så<lb/> behöfver
                man blott subtrahera 16 ifrån 64 så många<lb/> gånger som detta låter sig göra; och
@@ -1169,7 +1182,7 @@
          </div>
          <pb/>
          <div n="31" facs="p31" type="page" rend="justify">
-            <p><metamark function="pagenumber" place="top-left"><num>24</num></metamark> addera
+            <p><metamark function="pagenumber" place="top-left"><num rend="top-left">24</num></metamark><lb/> addera
                resten; så blir uti det uppgifna exemplet 40=<lb/> 5.7+5. <hi rend="center"> § 36. </hi><lb/>
                <hi rend="indent">Om summan af flera tal skall divideras med ett</hi><lb/> annat, sä
                blir qvoten lika med summan af de qvo­<lb/> ter, som fås då hvardera af de
@@ -1193,7 +1206,7 @@
          </div>
          <pb/>
          <div n="32" facs="p32" type="page" rend="justify">
-            <p><metamark function="pagenumber" place="top-right"><num>25</num></metamark> med de 5
+            <p><metamark function="pagenumber" place="top-right"><num rend="top-right">25</num></metamark><lb/> med de 5
                tiorna, som förut finnas i talet, utgöra 25<lb/> tior; och då dessa divideras med 3,
                får man till qvot<lb/> 8 tior, samt till rest 1 tio, hvilket såsom tiotal icke<lb/>
                kan divideras med 3; man upplöser det derföre i tio<lb/> enheter, hvilka förenade med
@@ -1226,7 +1239,7 @@
          <pb/>
          <div n="33" facs="p33" type="page" rend="justify">
 
-            <p><metamark function="pagenumber" place="top-left"><num>26</num></metamark> utgör
+            <p><metamark function="pagenumber" place="top-left"><num rend="top-left">26</num></metamark><lb/> utgör
                första ziffran i qvoten och kan skrifvas till hö-<lb/> ger om dividenden; med denna
                ziffra multipliceras<lb/> hela divisorn och producten subtraheras från de i <lb/>
                dividenden afräknade ziffrorna. Till resten, som all-<lb/> tid bör vara mindre än
@@ -1271,7 +1284,7 @@
          </div>
          <pb/>
          <div n="34" facs="p34" type="page" rend="justify">
-            <p><metamark function="pagenumber" place="top-right"><num>27</num></metamark>
+            <p><metamark function="pagenumber" place="top-right"><num rend="top-right">27</num></metamark><lb/>
                <hi rend="center"> § 38. </hi><lb/>
                <hi rend="indent">Om dividenden men icke divisorn slutas med en</hi><lb/> eller flere
                noller och divisorn jemt innehålles uti di-<lb/> videndens gällande ziffror, så
@@ -1306,7 +1319,7 @@
          <pb/>
          <div n="35" facs="p35" type="page" rend="justify">
             <p>
-               <metamark function="pagenumber" place="top-left"><num>28</num></metamark>
+               <metamark function="pagenumber" place="top-left"><num rend="top-left">28</num></metamark><lb/>
                <lg>
                   <l n="1">12500 )8100000( 648</l>
                   <l n="2">750</l>
@@ -1341,7 +1354,8 @@
          </div>
          <pb/>
          <div n="36" facs="p36" type="page" rend="justify">
-            <p> kunna anses såsom producter, och upplösas i de<lb/> factorer, af hvilka de äro
+            <p><metamark function="pagenumber" place="top-right"><num rend="top-right">29</num></metamark><lb/> 
+               kunna anses såsom producter, och upplösas i de<lb/> factorer, af hvilka de äro
                sammansatta; och om nå­<lb/>gra af dessa sista factorer äfven äro sammansatta,<lb/>
                måste de likaledes kunna upplösas o. s. v., ända<lb/> till ess alla factorer blifva
                primtal. T. ex. 24=2.12;<lb/> men 12 är 2.6 således är 24=2.2.6; nu är 6=2,3<lb/>och
