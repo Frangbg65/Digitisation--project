@@ -572,14 +572,14 @@
                <metamark function="pagenumber" place="top-right"><num rend="top-right">7</num></metamark><lb/>
                <hi rend="center"> § 10. </hi><lb/>
                <hi rend="indent">Skulle några slag af de lägre enheterna fattas,</hi><lb/> så
-               uppfyller man med nollor de platser, som de<lb/> skule intaga.<lb/>
+               uppfyller man med nollor de platser, som de<lb/> skulle intaga.<lb/>
                <hi rend="indent">Således betecknar man t. ex. det tal; som upp-</hi><lb/> kommer då
                600000, 5000 och 60 förenas med hvar-<lb/> andra, med 605060; och nollorna utmärka
                att i detta<lb/> tal icke finnas några tiotusen; hundraden och egent-<lb/> liga enheter.<lb/>
                <hi rend="center"> § 11. </hi><lb/>
                <hi rend="indent">Vi hafva nu visat huru man på ett papper eller</hi><lb/> en tafla
                kan beteckna hvilket tal som helst. Man<lb/> kan på samma grund äfven göra sig ett
-               bestämdt<lb/> begrepp om ett tals storlek. när man ser det beteck-<lb/> Nada. On man
+               bestämdt<lb/> begrepp om ett tals storlek. när man ser det beteck-<lb/> nadt. Om man
                t. ex. på papperet har talet 8035,<lb/> så ser man, då man efter hvarandra
                genomgår<lb/> ziffrorne från höger till venster, att talet består af 5<lb/> egentliga
                enheter, 3 tior, inga hundra och 8 tusen,<lb/> och att det således bör utnämnas med
@@ -589,7 +589,7 @@
                sam-<lb/> ma resultat. Man afskiljer nemligen först med ett<lb/> comma ziffrorne i
                klasser från höger till venster, tre<lb/> ziffror i hvarje klass. Öfver tredje
                klassens yttersta<lb/> ziffra åt höger kan man sedan sätta en punkt, öfver<lb/> 5:te
-               klasse11s två punkter, öfver 7:de klassens tre<lb/> punkter o. s. v. öfver hvarannan
+               klassens två punkter, öfver 7:de klassens tre<lb/> punkter o. s. v. öfver hvarannan
                klass. Slutligen<lb/> öfverstrykes hvart annat comma från och med det<lb/> andra. Den
                ziffra som har en punkt öfver sig, ut-<lb/> nämnes med Millioner, den som har två
                punkter<lb/> med Billioner, den som har tre, med Trillioner o. s.<lb/>
@@ -601,26 +601,31 @@
                <metamark function="pagenumber" place="top-left"><num rend="top-left">8</num></metamark><lb/> v., af de
                öfriga ziffrorne utnämnes den som har ett<lb/> comma efter sig, med tusen, den som
                följer efter<lb/> comma, med hundra, den dernäst med tior och den<lb/> derefter med
-               enheter. På detta sätt indeladt får talet<lb/> 543207009546873 följande utseende
-               543207,009546,873<lb/> och utnämnes med femhundra fyratiotre billioner<lb/> tvåhundra
-               asjutusen nio millioner; femhundra fyratiosex<lb/> tusen, åttahundra sjuttiotre.<lb/>
+               enheter. På detta sätt indeladt får talet<lb/>
+               <!--The following numbers are as close a representation as possible of the original 
+                  printed figure, which is just possible to discern in the zoomed-out image
+               but clearly described in the text. The superscript dots should be directly above the 3 and 9
+            respectively. This detail was included as important to the method of arithmetic as desribed.-->
+               543207009546873 följande utseende
+               543˙˙207,009˙546,873<lb/> och utnämnes med femhundra fyratiotre billioner<lb/> tvåhundra
+               sjutusen nio millioner; femhundra fyratiosex<lb/> tusen, åttahundra sjuttiotre.<lb/>
                <hi rend="center"> § 12. </hi><lb/>
                <hi rend="indent">Obestämda tal betecknas med bokstäfver. Man</hi><lb/> nyttjar då
-               vanligen de första bokstäfvetna i aiphabetet<lb/> (a, b, c, d, o. s. v.) för att
-               beteckna de tal,<lb/> som supponeras bekanta, ehnrt1 man Jemoar derhiin<lb/> huru
-               stora de äro; och de sista bokstäfvel'na (t, u,<lb/> v, x, y och z) för att utmärka
+               vanligen de första bokstäfvetna i aiphabetet<lb/> (<emph rend="italic">a, b, c, d,</emph>, o. s. v.) för att
+               beteckna de tal,<lb/> som supponeras bekanta, ehuru man lemnar derhän<lb/> huru
+               stora de äro; och de sista bokstäfverna (<emph rend="italic">t, u<lb/> v, x, y</emph> och <emph rend="italic">z</emph>) för att utmärka
                obekanta tal.<lb/>
                <hi rend="center"> § 13. </hi><lb/>
-               <hi rend="indent">När man sågades betecknar obestämda tal, kan</hi><lb/> Man icke af
-               tecknen (bokstäfverna)skilja de större<lb/> talen från de mindre. Om man därför
-               behöfver angifva<lb/> bvilketdera som är större af två sålunda betecknade<lb/> tal,
-               fordras dertill äfven ett tecken, och<lb/> detta tecken år >, hvilket sättes emellan
+               <hi rend="indent">När man således betecknar obestämda tal, kan</hi><lb/> Man icke af
+               tecknen (bokstäfverna) skilja de större<lb/> talen från de mindre. Om man därför
+               behöfver an-<lb/>gifva hvilketdera som är större af två sålunda be-<lb/>tecknade tal,
+               fordras dertill äfven ett tecken, och<lb/> detta tecken år ＞, hvilket sättes emellan
                dem, så<lb/> att spetsen vändes mot det mindre talet.<lb/>
-               <hi rend="indent">På detta sått utmärker a>b att a är större än</hi><lb/> b, och
-               a&lt;b att a är mindre än b<lb/>
+               <hi rend="indent">På detta sått utmärker <emph rend="italics">a＞b</emph> att a är större än</hi><lb/><emph rend="italics">b</emph> , och
+               <emph rend="italics">a＜b</emph> att <emph rend="italics">a</emph> är mindre än <emph rend="italics">b</emph><lb/>
                <hi rend="indent">Vill man åter utmärka att två på olika sätt be-</hi> tecknade tal
-               äro lika stora, så sätter man tecknet=<lb/> emellan dem. Således betecknar a=b att a
-               är lika<lb/> med b.<lb/>
+               äro lika stora, så sätter man tecknet=<lb/> emellan dem. Således betecknar <emph rend="italics">a=b</emph> att <emph rend="italics">a</emph> 
+               är lika<lb/> med <emph rend="italics">b</emph>.<lb/>
                <hi rend="indent">Detta sista tecken (=) kallas derföre likhetstecken.</hi><lb/>
             </p>
          </div>
