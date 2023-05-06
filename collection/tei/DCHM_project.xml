@@ -719,15 +719,17 @@
                <hi rend="center"> § 19.</hi>
                <lb/>
                <hi rend="indent">För att beteckna en sådan rest sätter man teck-</hi><lb/> net -,
-               som kallas minus, emellan de två talen; och<lb/> det så, att det talet, som skall
+               som kallas <emph rend="italics">minus</emph>, emellan de två talen; och<lb/> det så, att det talet, som skall
                subtraheras eller ta-<lb/> gas från det andra, sättes efteråt. Det förra kallas<lb/>
-               minuend, det sednare subtrahend.<lb/> På detta sätt betecknar 9-3 skillnaden
-               emellan<lb/> 9 och 3, eller den rest man får då 3 tages från 9.<lb/>
-               <hi rend="indent">På samma sätt betecknar 9-3-4 den rest man</hi><lb/> får, då man
+               <emph rend="italics"></emph>minuend, det sednare <emph rend="italics"></emph>subtrahend.<lb/> 
+               
+               <hi rend="indent"> På detta sätt betecknar 9-3 skillnaden
+               emellan</hi><lb/> 9 och 3, eller den rest man får då 3 tages från 9.<lb/>
+               På samma sätt betecknar 9-3-4 den rest man<lb/> får, då man
                från 9 subtraherar 3 och sedan från<lb/> resten subtraherar 4 o. s. v. Och i
-               allmänhet be-<lb/> tecknar a-b den rest man far, då b tages från a; a-b-c den rest
-               man får, då man från a först<lb/> subtraherar b och sedan från resten subtraherar
-               c,<lb/> o.s.v.<lb/>
+               allmänhet be-<lb/> tecknar <emph rend="italics">a-b</emph> den rest man far, då <emph rend="italics">b</emph> tages från <emph rend="italics"></emph>a; <emph rend="italics"></emph>a-b-c den rest
+               man får, då man från <emph rend="italics">a</emph> först<lb/> subtraherar <emph rend="italics">b</emph> och sedan från resten subtraherar
+               <emph rend="italics">c</emph>,<lb/> o.s.v.<lb/>
                <!-- there is an error in the sourse it says §3 when it should be §20 -->
                <hi rend="center"><choice>
                      <sic>§3.</sic>
@@ -736,9 +738,9 @@
                      be '§20' </note>
                </hi><lb/>
                <hi rend="indent">Då eft tal, som består af en enkel ziffra, skall</hi><lb/>
-               subtraheras från ett annat, som också består af<lb/> blott en ziffr, så drager man
+               subtraheras från ett annat, som också består af<lb/> blott en ziffra, så drager man
                naturligtvis i tankan<lb/> antalet af den mindre ziffrans enheter från antalet
-               af<lb/> Den störres; saåfinner man t. ex. 9-5=4; 6-<lb/> 5=1; o.s.v.<lb/>
+               af<lb/> den störres; så finner man t. ex. 9-5=4; 6-<lb/> 5=1; o.s.v.<lb/>
                <hi rend="center"> § 21. </hi><lb/>
                <hi rend="indent">Dä deremot tal, som bestå af flera ziffror, skola</hi><lb/>
                subtraheras från hvarandra, så är dett klart, att man<lb/> från ett gifvet slags
@@ -746,32 +748,37 @@
                slag; nemligen: egentliga enheter från hvarandra,<lb/> tior från tior, hundra från
                hundra, o.s.v. Man<lb/> skrifver derföre subtrahenden på sådant sätt under<lb/>
                minuenden, att egentliga enheter komma att stå un-<lb/> der egentliga enheter, tior
-               under tior, hundraden un<lb/>
+               under tior, hundraden un-<lb/>
             </p>
          </div>
          <pb/>
          <div n="'20" facs="p20" type="page" rend="justify">
             <p>
                <metamark function="pagenumber" place="top-right"><num rend="top-right">13</num></metamark><lb/> 
-               der hundraden o.s.v. Således om man t. ex. från<lb/> 789 skall subtrahera . . . . . . . .
-               .<lb/> 435, så tager man först 5 enheter från de 9 enhe-<lb/> terna i det förra
+               der hundraden o.s.v. Således om man t. ex. från<lb/> 
+               <!-- The six dots are used as a layout device to ensure that 789 is directly above 435 on the page-->
+               789 skall subtrahera . . . . . . 
+               <lb/> 435, så tager man först 5 enheter från de 9 enhe-<lb/> terna i det förra
                talet, hvaraf resten blir 4 enheter;<lb/> sedan tager man 3 tior från de 8 tiorna i
-               samma<lb/> Tal, hvaraf resten blir 5 tior; slutligen tages 4 hun-<lb/> dra ifrån de 7
+               samma<lb/> tal, hvaraf resten blir 5 tior; slutligen tages 4 hun-<lb/> dra ifrån de 7
                hundra i samma tal, hvaraf resten blir<lb/> 3 hundra; således blir hela resten lika
                med 3 hun-<lb/> dra, 5 tior och 4 enheter, eller 354.<lb/>
                <hi rend="indent">Men då det ofta händer, att några af de lägre</hi><lb/> enheterna i
                minuenden antingen helt och hållet fat-<lb/> tas, eller icke äro så många som de,
                hvilka äro af<lb/> samma slag med dem i subtrahenden, sä tager man<lb/> så en af de
                närmast högre enheterna i minuenden<lb/> och upplöser eller likasom växlar sönder
-               henne i si-<lb/> na tio lägre enheter, varigenom man alltid får ett<lb/> antal, som
+               henne i si-<lb/> na tio lägre enheter, hvarigenom man alltid får ett<lb/> antal, som
                är mer än tillräckligt för subtraktionens<lb/> verkställande<lb/>
-               <hi rend="indent">Sälades on man t. ex. från 7654 skall subtrahera</hi><lb/> . . . .
-               . . . . . . . 4796, så finnes i ta-<lb/> let 7654 blott 4 egentliga enheter; men nu
+               <hi rend="indent">Säledes on man t. ex. från 7654 skall subtrahera</hi><lb/>
+               <!-- Again the six dots are used to make sure that 7654 appears directly above 4796
+               on the page.-->
+          . . . .
+               . .  4796, så finnes i ta-<lb/> let 7654 blott 4 egentliga enheter; men nu
                skola 6<lb/> enheter tagas derifrån, således måste man taga en<lb/> af de 5 tiorna i
                detta tal och upplösa henne i sina<lb/> tio enheter, hvaraf man får inalles 14
                enheter, och<lb/> då nu 6 tagas derifrån, blir resten 8 enheter; ifrån<lb/> de 4
                öfriga tiorne i detta tal skola nu 9 tior sub-<lb/> traheras, hvilket icke heller är
-               möjligt; således må-<lb/> ste man taga ett af de 6 hundratalen och upplösa<lb/> de i
+               möjligt; således må-<lb/> ste man taga ett af de 6 hundratalen och upplösa<lb/> det i
                sina tio tior, hvaraf fås inalles 14 tior, och<lb/> då nu 9 tior tagas derifrån, blir
                resten 5 tior; vi-<lb/> dare skall nu 7 hundra subtraheras från samma tal;<lb/> men
                detta tal har nu icke mer än 5 hundratal öfriga<lb/> (emedan ett af dem är upplöst i
@@ -789,22 +796,22 @@
                <hi rend="center"> § 22. </hi><lb/>
                <hi rend="indent">För att addera ett och samma tal, taget flera</hi><lb/> gånger,
                till en summa, eller söka det tal som ut-<lb/> trycker denna summas storlek, har man
-               en särskilt<lb/> operation, som kallas Multiplication.<lb/>
-               <hi rend="indent">Att multiplicera ett tal 4 med ett annat tal 5 är</hi><lb/> det
+               en särskilt<lb/> operation, som kallas <emph rend="italics">Multiplication</emph>.<lb/>
+               <hi rend="indent"><emph rend="italics">Att multiplicera</emph> ett tal 4 med ett annat tal 5 är</hi><lb/> det
                samma som att addera, eller söka summan af 5<lb/> tal, som hvardera äro lika med 4,
                eller att söka ett<lb/> tal, som är 5 gånger större än ett annat tal 4.<lb/> Den
-               sökta summan , eller det tal som är 5 gånger<lb/> större än 4. kallas product utaf
+               sökta summan , eller det tal som är 5 gånger<lb/> större än 4. kallas <emph rend="italics">product</emph> utaf
                dessa talen.<lb/>
                <hi rend="indent">Det tal som multipliceras, eller adderas flera</hi><lb/> gånger
-               taget, kallas multlicand; och de tal, som<lb/> utmärker huru många ganger det är
+               taget, kallas <emph rend="italics">multiplicand</emph>; och de tal, som<lb/> utmärker huru många ganger det är
                taget, eller<lb/> huru många gånger producten är större än multipli-<lb/> canden,
-               kallas multiplicator.<lb/>
+               kallas <emph rend="italics">multiplicator</emph>.<lb/>
                <hi rend="indent">Multiplicatorn och multiplicanden kallas eljest</hi><lb/> med ett
-               gemensamt namn Factorer.<lb/>
+               gemensamt namn <emph rend="italics">Factorer</emph>.<lb/>
                <hi rend="center"> § 23. </hi><lb/>
                <hi rend="indent">Då man vill beteckna att ett tal skall multipli-</hi><lb/> ceras
                med ett annat, sätter man antingen tecknet x<lb/> eller blott en punkt mellan dem;
-               eller ock, om ta- len äro obestämda, sätter man dem vanligen jemte<lb/> hvarandra
+               eller ock, om ta-<lb/>len äro obestämda, sätter man dem vanligen jemte<lb/> hvarandra
                utan något tecken.<lb/>
             </p>
          </div>
@@ -817,24 +824,30 @@
                gånger 3, eller den product man får,<lb/> då 3 multipliceras med 4. Likaledes
                betecknar 3.4.5<lb/> den product man får, då 3 multipliceras med 4 och<lb/>
                producten, som deraf uppkommer, åter multipliceras<lb/> med 5. Och om ett obestämdt
-               tal a skall multipli-<lb/> ceras med ett annat obestämdt tal b, så betecknas<lb/>
-               producten med ab; skall denna product åter multipli-<lb/> ceras med ett tal c, så
-               betecknas den product<lb/> som deraf uppkommer, med abc., o.s.v. Likaledes<lb/>
-               betecknar (a+b) (c-d) producten, som fås då a+b<lb/> multipliceras med c-d o.s.v. Om
-               ett och samma<lb/> tal skall multipliceras med sig sjelf; om a skall mul-<lb/>
-               tipliceras med a, så betecknar man icke producten<lb/> med aa, utan skriver för
-               korthetens skull a2;<lb/> Skall äter denna product multipliceras med a, så<lb/>
-               betecknas dem deraf uppkommande producten med<lb/> a3; o.s.v. sä att a4 , a5 , a6,
-               o.s.v. beteckna<lb/> detsamma som aaaa, aaaaa, aaaaaa o.s.v. Lika-<lb/> ledes
-               betecknar (a+b)2; (e+b}3 detsamma som<lb/> (a+b) (a+b); (a+b) (a+b) (a+b) o.s.v. De
+               tal <emph rend="italics">a</emph> skall multipli-<lb/> ceras med ett annat obestämdt tal <emph rend="italics">b</emph>, så betecknas<lb/>
+               producten med <emph rend="italics">ab</emph>; skall denna product åter multipli-<lb/> ceras med ett tal <emph rend="italics">c</emph>, så
+               betecknas den product<lb/> som deraf uppkommer, med <emph rend="italics">abc</emph>., o.s.v. Likaledes<lb/>
+               betecknar <emph rend="italics">(a+b) (c-d)</emph> producten, som fås då <emph rend="italics">a+b</emph><lb/> multipliceras med <emph rend="italics">c-d</emph> o.s.v. Om
+               ett och samma<lb/> tal skall multipliceras med sig sjelf; om <emph rend="italics">a</emph> skall mul-<lb/>
+               tipliceras med <emph rend="italics">a</emph>, så betecknar man icke producten<lb/> med <emph rend="italics">aa</emph>, utan skriver för
+               korthetens skull <emph rend="italics">a²</emph>;<lb/> Skall äter denna product multipliceras med <emph rend="italics">
+
+               a</emph> , så<lb/>
+               betecknas dem deraf uppkommande producten med<lb/><emph rend="italics">a³ܑܑ</emph>; o.s.v. sä att <emph rend="italics">a⁴, a⁵, a⁶</emph>
+               o.s.v. beteckna<lb/> detsamma som <emph rend="italics">aaaa, aaaaa, aaaaaa</emph> o.s.v. Lika-<lb/> ledes
+               betecknar <emph rend="italics"> (a+b)²; (a+b)³
+               </emph>;detsamma som<lb/> <emph rend="italics"> (a+b) (a+b); (a+b) (a+b) (a+b)</emph> o.s.v. De
                num-<lb/> rorna, som här sättas till höger öfver den qvantitet<lb/> man multiplicerar
                med sig sjelf, och som utmärka<lb/> huru många gånger samma qvantitet ingår som
-               fac-<lb/> tor i den betecknade producten, kallas exponenter.<lb/>
+               fac-<lb/> tor i den betecknade producten, kallas <emph rend="italics">
+               exponenter</emph>.<lb/>
+               <!-- There appears to be a handritten number two just under the word "exponenter"-->
+               <hi rend="right" style="handwriting">2</hi>
                <hi rend="center"> § 24. </hi><lb/>
-               <hi rend="indent">Om två eller flera factorer skola multipliceras med</hi><lb/>
-               hvarandra, så ät· det likgiltigt i hvilken ordning mul-<lb/> tiplicationen sker, så
-               är t. ex. 4.5 = 5.4; ty 4 är=<lb/> 1-1+1+1; sätter man nu 5 sådane rader under<lb/>
-               Hvarandra på följande sätt:<lb/>
+               <hi rend="indent"><emph rend="italics"> Om två eller flera factorer skola multipliceras med</emph></hi><lb/>
+               <emph rend="italics"> hvarandra, så är det likgiltigt i hvilken ordning mul-<lb/> tiplicationen sker, så
+               är</emph> t. ex. 4.5 = 5.4; ty 4 är=<lb/> 1-1+1+1; sätter man nu 5 sådane rader under<lb/>
+               hvarandra på följande sätt:<lb/>
             </p>
          </div>
          <pb/>
@@ -844,12 +857,12 @@
                <!-- the whole sum is enclosed in large {} and slightly indented in the source--> 4 =
                1 + 1 + 1 + 1<lb/> 4 = 1 + 1 + 1 + 1<lb/> 4 = 1 + 1 + 1 + 1<lb/> 4 = 1 + 1 + 1 + 1
                och adderar alla fyror,<lb/> 4 = 1 + 1 + 1 + 1<lb/> 4.5= 5 + 5 + 5 + 5 <lb/> som äro
-               på vens sidan om likhets-tecknen, så är<lb/> klart att summan blir fem gånger fyra
+               på venstra sidan om likhets-tecknen, så är<lb/> klart att summan blir fem gånger fyra
                eller 4.5; men<lb/> denna summa måste vara lika med summan af alla<lb/> enheterna,
                som äro på andra sidan, och dessa enhe-<lb/> ter äro lika många, man må addera dem i
                hvilken<lb/> ordning som helst, man kan derföre särskilt sam-<lb/> manlägga dem, som
-               stå i samma column, då man<lb/> tydligen får 5 i hvrar column; nu är columnernas<lb/>
-               anttal 4; således blir enheternas antal 4 gånger 5,<lb/> eller 5.4, och följaktligen
+               stå i samma column, då man<lb/> tydligen får 5 i hvar column; nu är columnernas<lb/>
+               antal 4; således blir enheternas antal 4 gånger 5,<lb/> eller 5.4, och följaktligen
                4.5 = 5.4.<lb/>
                <hi rend="indent">På samma sätt bevises äfven: att om 4.5 multi-</hi><lb/> pliceras
                med 7. så bli producten densamma som<lb/> om 4.7 multipliceras med 5.<lb/>
