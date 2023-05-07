@@ -1074,18 +1074,24 @@
                höger; tredje radens yttersta ziffra<lb/> till höger under andra radens andra ziffra
                från hö­<lb/> ger o. s. v.; slutligen adderas alla raderne till en<lb/> summa, som då
                blir den sökta producten; t. ex. <lb/>
+               <!-- The following numbers are placed centrally on the page, 345 directly under 576,
+               2880 underneath 345, but then 2304 is one step to the left under 2880, so the 4 is
+               under the first 8 from the right, then 1728 is also one step to the left so the 8 is under the 0.
+               the final sum 198720 is right justified in line with 2880,345 and 576 . I have attempted to recreate
+               this layout with spaces, as it is of significance for the calculation.-->
                <lg>
-                  <l n="1">576</l>
-                  <l n="2">345</l>
+                  <l n="1">   576</l>
+                  <l n="2">   345</l>
                   <l n="3">-----</l>
-                  <l n="4">2880</l>
-                  <l n="5">2304</l>
+                  <l n="4">  2880</l>
+                  <l n="5"> 2304</l>
                   <l n="6">1728</l>
                   <l n="7">-------</l>
                   <l n="8">198720; ty</l>
                </lg> 576.345=345.576=576.300+576.40+576.5 (§ 26) och<lb/> detta åter
                är=l7280+23030+2880 (§ 29), och då<lb/> dessa särskilta producter uppskrifvas till
                addition<lb/> under hvarandra på vanligt sätt: <lb/>
+               <!-- The following numbers are placed centrally on the page, and right justified with each other.-->
                <lg>
                   <l n="1">2880</l>
                   <l n="2">23040</l>
@@ -1098,8 +1104,8 @@
                onö­<lb/> digtvis uppskrifva flera noller. <lb/>
                <hi rend="center"> § 31. </hi><lb/>
                <hi rend="indent">Om multiplicanden slutas med noller, så multi-</hi><lb/> pliceras
-               endast de gällande ziffrorna med multiplica­<lb/> torn och nollerna nedflyttas till
-               höger om produc­<lb/> ten; t. ex. <lb/>
+               endast de gällande ziffrorna med multiplica-­<lb/> torn och nollerna nedflyttas till
+               höger om produc-­<lb/> ten; t. ex. <lb/>
             </p>
          </div>
          <pb/>
