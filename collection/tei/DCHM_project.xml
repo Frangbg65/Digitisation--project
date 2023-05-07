@@ -11,7 +11,7 @@
             <principal>Francisco Ferrer</principal>
             <principal>Esther Pocock</principal>
             <respStmt>
-               <resp>Scaning, OCR, text correction,encoding, TEI, XML, proof reading, HTML and publication </resp>
+               <resp>Scanning, OCR, text correction,encoding, TEI, XML, proof reading, HTML and publication </resp>
                <name>Francisco Ferrer</name>
                <name>Esther Pocock</name>
             </respStmt>
@@ -881,12 +881,12 @@
          <pb/>
          <div n="24" facs="p24" type="page" rend="justify">
             <p><metamark function="pagenumber" place="top-right"><num rend="top-right">17</num></metamark><lb/> 7.4 eller
-               4.7 utaf hvar column; och efter columner­<lb/> nas antal äro fem, så blifva alla
-               dessa 4.7 tillsam-<lb/> mantagne lika med 5 gånger 4.7 eller 4.7.5, följakt­<lb/>
-               ligen är 4.7.5 = 4.5.7. <hi rend="center"> § 25. </hi><lb/><lb/> Att multiplicera
-               2:ne enkla ziffror med kvarandra:<lb/>
-               <hi rend="indent">Härtill fordras att säkert minnas alla de produc­</hi><lb/> ter,
-               som uppkomma då en ziffra multipliceras med <lb/> en ·annan. Detta läres af följande
+               4.7 utaf hvar column; och efter columner-­<lb/> nas antal äro fem, så blifva alla
+               dessa 4.7 tillsam-<lb/> mantagne lika med 5 gånger 4.7 eller 4.7.5, följakt-­<lb/>
+               ligen är 4.7.5 = 4.5.7. <hi rend="center"> § 25. </hi><lb/><lb/> <emph rend="italics"> Att multiplicera
+               2:ne enkla ziffror med kvarandra:</emph><lb/>
+               <hi rend="indent">Härtill fordras att säkert minnas alla de produc­-</hi><lb/> ter,
+               som uppkomma då en ziffra multipliceras med <lb/> en annan. Detta läres af följande
                tabell, som är <lb/> funnen derigenom att hvarje enkel ziffra adderats tili<lb/> sig
                sjelf ifrån en, ända till nio gånger. <lb/> Multiplications-Tabell.<lb/>
                <table>
@@ -991,12 +991,12 @@
                   </row>
                </table>
                <hi rend="indent">Om man nu af denna tabell vill finna producten</hi>­<lb/> af tvenne
-               enkla ziffror, t. ex. 8 gånger 6, så upp­<lb/> söker man 8 i den öfversta raden och
+               enkla ziffror, t. ex. 8 gånger 6, så upp-­<lb/> söker man 8 i den öfversta raden och
                följer dess <lb/> column rätt ned till dess den afskäres af den column <lb/> som från
                ziffran 6 i yttersta columnen till venster<lb/> går rätt ut till höger; i
                afskärningen finnes den sök­<lb/> ta producten 48. <lb/>
-               <note place="bottom" rend="small-font">Elem. af Arith. och Planin. 1
-                     Del.<num>3</num><locus>bottom right corner</locus></note>
+               <note place="bottom" rend="small-font"><emph rend="italics"> Elem. af Arith. och Planin. 1
+                     Del.<num>3</num></emph><locus>bottom right corner</locus></note>
             </p>
 
          </div>
@@ -1011,23 +1011,23 @@
                de först-­<lb/> ­nämnde talen multipliceras med de sednare; så är ­<lb/> t. ex.
                456.3=(4OO+50+6). 3=400.3+50.3+6.3; ty­<lb/> emedan multiplication ej är annat än en
                fortsatt ad-­<lb/> ­dition af ett och samma tal till sig sjelf ett visst an-­<lb/>
-               ­tal gånger så är (400+50+6). 3 detsamma som­<lb/>
+               ­tal gånger så är (400+50+6). 3 detsamma som­<lb/>400+50+6+400+50+6+400+50+6.
                <hi rend="indent">Och emedan det är likgiltigt i hvilken ordning</hi>­<lb/> man
                adderar talen till hvarandra, så är detta det-­<lb/> ­samma som
                400+400+400+50t50t50+6+6+6 hvil-­<lb/> ­ket åter är detsamma som 400.3+50.3+6.3.
-               ­<lb/> Anmärkning. Om således a, b, c utmärka trenne­<lb/>
-               <hi rend="indent">tal, så är (a+b) c=ac+bc. På samma sätt kan</hi>­<lb/>
-               <hi rend="indent">äfven bevisas att (a-b) c=ac-bc.</hi>­<lb/>
+               ­<lb/><emph rend="italics">Anmärkning</emph> . Om således <emph rend="italics"> a, b, c</emph> utmärka trenne­<lb/>
+               <hi rend="indent">tal, så är  <emph rend="italics">(a+b) c=ac+bc</emph>. På samma sätt kan</hi>­<lb/>
+               <hi rend="indent">äfven bevisas att  <emph rend="italics">(a-b) c=ac-bc</emph>.</hi>­<lb/>
                <hi rend="center"> § 27. </hi><lb/><lb/>
                <hi rend="indent">Ett tal blir multipliceradt med tio, då man till</hi><lb/> höger
                tillägger ett noll; med hundra, då man till<lb/> höger tillägger två noller; med
                tusen, då man tilläg-<lb/> ­ger tre noller o. s. v. <lb/>
                <hi rend="indent">Om t. ex. 426 skall multipliceras med 10, så </hi><lb/> blir
                prod􀈽cten=4260; ty derigenom att O tillägges<lb/><lb/> till höger, blifva enheterna
-               af hvarje slag förvandlade<lb/> till enheter af närmast högre slag {§§ 8, 9,10)
+               af hvarje slag förvandlade<lb/> till enheter af närmast högre slag (§§ 8, 9,10)
                och<lb/> således tio gånger större än förut.<lb/>
-               <hi rend="indent">Men då delarne 400, 20 och 6 göras tio gån-</hi><lb/> ­ger stöne,
-               så blir också hela talet 426 tio gånger<lb/> större {föregående §). <lb/>
+               <hi rend="indent">Men då delarne 400, 20 och 6 göras tio gån-</hi><lb/> ­ger större,
+               så blir också hela talet 426 tio gånger<lb/> större (föregående §). <lb/>
             </p>
          </div>
          <pb/>
@@ -1035,11 +1035,11 @@
             <p>
                <metamark function="pagenumber" place="top-right"><num rend="top-right">19</num></metamark><lb/>
                <hi rend="center"> § 28. </hi><lb/><lb/> Då ett tall, som består af flera ziffror,
-               skall multipliceras med en enkel ziffra, uppskrifves multi- plicatorn under
-               multiplicanden; sedan börjar man från höger till venster att multiplicera hvarje
-               ziffra i multiplicanden med mulplicatorn; af de särskilta producterna uppskrifvas
-               endast enherterna midt un- der sina mostvarande ziffror i öfra raden, och tior- nas
-               antal behållas i minnet för att läggas till nästa då hela producten är färdig; t. ex. <lg>
+               skall multipliceras med en enkel ziffra, uppskrifves multi-</lb> plicatorn under
+               multiplicanden; sedan börjar man<lb/> från höger till venster att multiplicera hvarje
+               ziffra i<lb/> multiplicanden med mulplicatorn; af de särskilta producterna uppskrifvas
+               endast enherterna midt un-<lb/> der sina mostvarande ziffror i öfra raden, och tior-<lb/> nas
+               antal behållas i minnet för att läggas till nästa<lb/> då hela producten är färdig; t. ex.<lb/> <lg>
                   <l n="1"> 2863</l>
                   <l n="2">6</l>
                   <l n="3">------</l>
@@ -1049,13 +1049,13 @@
                skall<lb/> multipliceras med ett annat, som blott består af en<lb/> gällande ziffra
                med en eller flera noller efter sig,<lb/> så multiplicerar man, såsom i föregående §,
                blott<lb/> med den gållande ziffran; men efter slutad multipli-<lb/> cation flyttas
-               nollerne ned till häger om producten.v Så är t. ex.<lb/>
+               nollerne ned till häger om producten.<lb/>  Så är t. ex.<lb/>
                <lg>
                   <l n="1">765</l>
                   <l n="2">300</l>
                   <l n="3">------</l>
                   <l n="4">229500; ty</l>
-               </lg> 765.300=765.3.100 (§ 27); detta är-2295.100 (§§,<lb/> 24,26): och detta åter
+               </lg> 765.300=765.3.100 (§ 27); detta är=2295.100 (§§,<lb/> 24,26): och detta åter
                är=229500 (§ 27). <lb/>
                <hi rend="center"> § 30. </hi><lb/><lb/> Då ett tal som består af flera ziffror,
                skall mul-<lb/> tipliceras med ett annat, som äfven består at flera<lb/>
