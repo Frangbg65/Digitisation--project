@@ -129,5 +129,36 @@
         </u>
     </xsl:template>
 
-
+    <xsl:template match="tei:emph[@rend = 'italics']">
+        <i>
+        <xsl:apply-templates/>
+    </i>
+    </xsl:template>
+        <xsl:template match="tei:div[@rend = 'justify']">
+            <text-align>
+            <xsl:apply-templates/>
+        </text-align>
+    </xsl:template>
+    <xsl:template match="tei:num[@rend = 'top-right']">
+        <text-align>
+            <xsl:apply-templates/>
+    </text-align>       
+    </xsl:template>
+    <xsl:template match="tei:num[@rend = 'top-left']">
+        <text-align>
+            <xsl:apply-templates/>
+        </text-align>
+        
+    </xsl:template>
+    <xsl:template match="tei:hi[@rend = 'center']">
+        <text-aling>
+            <xsl:apply-templates/>
+        </text-aling>
+    </xsl:template>
+    <xsl:template match="tei:lb"><br>
+        <xsl:apply-templates/>
+    </br>
+   
+        
+    </xsl:template>
 </xsl:stylesheet>
