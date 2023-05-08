@@ -1032,15 +1032,15 @@
          </div>
          <pb/>
          <div n="26" facs="p26" type="page" rend="justify">
-            <p>
+          <p>
                <metamark function="pagenumber" place="top-right"><num rend="top-right">19</num></metamark><lb/>
-               <hi rend="center"> § 28. </hi><lb/><lb/> Då ett tall, som består af flera ziffror,
-               skall multipliceras med en enkel ziffra, uppskrifves multi-</lb> plicatorn under
+               <hi rend="center"> § 28. </hi><lb/> Då ett tall, som består af flera ziffror,
+               skall <lb/> multipliceras med en enkel ziffra, uppskrifves multi-<lb/> plicatorn under
                multiplicanden; sedan börjar man<lb/> från höger till venster att multiplicera hvarje
                ziffra i<lb/> multiplicanden med mulplicatorn; af de särskilta producterna uppskrifvas
                endast enherterna midt un-<lb/> der sina mostvarande ziffror i öfra raden, och tior-<lb/> nas
-               antal behållas i minnet för att läggas till nästa<lb/> då hela producten är färdig; t. ex.<lb/> <lg>
-                  <l n="1"> 2863</l>
+               antal behållas i minnet för att läggas till nästa<lb/> då hela producten är färdig; t. ex.<lb/>
+                <lg>  <l n="1"> 2863</l>
                   <l n="2">6</l>
                   <l n="3">------</l>
                   <l n="4">17178</l>
@@ -1059,8 +1059,7 @@
                är=229500 (§ 27). <lb/>
                <hi rend="center"> § 30. </hi><lb/><lb/> Då ett tal som består af flera ziffror,
                skall mul-<lb/> tipliceras med ett annat, som äfven består at flera<lb/>
-            </p>
-
+          </p>
 
          </div>
          <pb/>
@@ -1265,7 +1264,7 @@
                huru många gånger<lb/> divisorns första ziffra innehålles i dividendens första <lb/>
                ziffra (eller i de tvenne första). Det tal man då får,<lb/>
                <note place="bottom" rend="small-font">Elem. af Arith. och Planin. 1
-                     Del.<num>4</num><locus>bottom right corner</locus></note>
+                     Del.<num rend="bottom-right">4</num></note>
             </p>
 
          </div>
