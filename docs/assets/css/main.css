@@ -8,9 +8,13 @@ body {
   width: 100%;
 	}
 
+p {
+text-align:justify;
+}
 h1, h2, h3, nav, footer {
     text-align: center;
 }
+
 
 nav {
     margin-bottom: 1vw;
