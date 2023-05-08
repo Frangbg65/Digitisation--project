@@ -121,6 +121,10 @@
             <xsl:apply-templates/>
         </u>
     </xsl:template>
-
+    <xsl:template match="tei:lb">
+        <br>
+            <xsl:apply-templates/>
+        </br>
+    </xsl:template>
 
 </xsl:stylesheet>

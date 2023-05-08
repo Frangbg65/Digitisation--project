@@ -7,14 +7,12 @@ body {
 	font-size: 1vw;
   width: 100%;
   
-	}
-
-
-h1, h2, h3, nav, footer {
+}
+h1, h2, h3, nav, p, br, footer {
     text-align: center;
 }
 
-
+}   
 nav {
     margin-bottom: 1vw;
     border-top: 1px solid black;

@@ -7,6 +7,7 @@
     <!-- transform the root element (TEI) into an HTML template -->
     <xsl:template match="tei:TEI">
         <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text><xsl:text>&#xa;</xsl:text>
+    
         <html lang="en" xml:lang="en">
             <head>
                 <title>
@@ -128,6 +129,11 @@
         </sup>
     </xsl:template>
 
+    <xsl:template match="tei:lb">
+        <br>
+            <xsl:apply-templates/>
+        </br>
+    </xsl:template>
     <!-- transform tei hi (highlighting) with the attribute @rend="u" into html u elements -->
     <!-- how to read the match? "For all tei:hi elements that have a rend attribute with the value "u", do the following" -->
     <xsl:template match="tei:hi[@rend = 'u']">
