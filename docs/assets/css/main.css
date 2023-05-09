@@ -8,11 +8,36 @@ body {
   width: 100%;
   
 }
-h1, h2, h3, nav, p, br, footer {
+h1, h2, h3, h5, nav, br, footer {
     text-align: center;
 }
+p {
+   text-align:center; 
+ 
+   }
+   .right-align {
+   text-align:right;
+   }
+  .left-align {
+   text-align:left;
+   }
+   .center-align {
+   text-align:center;
+   }
+   
+   
+table {
+      border-collapse: collapse;
+      border: 1px solid black;
+      margin:auto;
+    }
+ 
+    td {
+      border: 3px solid black !important;
+      padding: 10px !important; 
+     
+    }
 
-}   
 nav {
     margin-bottom: 1vw;
     border-top: 1px solid black;
