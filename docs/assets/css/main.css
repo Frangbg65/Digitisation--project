@@ -5,20 +5,28 @@ body {
 	font-family: 'Palatino','Palatino Linotype','Palatino LT STD','Book Antiqua','Georgia,serif';
 	line-height: 1.25;
 	font-size: 1vw;
-  width: 100%;
+     width: 100%;
   
 }
-h1, h2, h3, h5,  nav,  footer {
+h1, h2, h3, h5, nav,  footer {
     text-align: center;
 }
-
+h1 {
+font-size:x-large;
+ }
    .justify-align {
    text-align:justify;
-margin: 0 auto;
+}
+ .justify-align::after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
 
-   }
-    
-   
+.justify-align span {
+  display: block;
+}
+     
    .right-align {
    text-align:right;
    width: 90%;
@@ -30,7 +38,15 @@ margin: 0 auto;
    .center-align {
    text-align:center;
    }
-   
+   .center-align::after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+
+.center-align span {
+  display: block;
+}
    
 table {
       border-collapse: collapse;
@@ -43,7 +59,12 @@ table {
       padding: 10px !important; 
      
     }
-
+.wrapper {
+    max-width: 1000px;
+    color:olive;
+    background-color:beige;
+    
+ }   
 nav {
     margin-bottom: 1vw;
     border-top: 1px solid black;
@@ -51,6 +72,15 @@ nav {
     padding: 1vw;
 }
 
+nav a:hover {
+    background-color:white;
+    color:olive;
+}
+nav a {
+    background-color:olive;
+    color:white;
+    font-size:medium;
+}
 h2 {
     padding: 1vw;
 }
