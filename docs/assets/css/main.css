@@ -6,7 +6,8 @@ body {
 	line-height: 1.25;
 	font-size: 1vw;
      width: 100%;
-  
+  margin: 0;
+  padding: 0;
 }
 h1, h2, h3, h5, nav,  footer {
     text-align: center;
@@ -61,9 +62,11 @@ table {
      
     }
 .wrapper {
-    max-width: 1200px;
+    max-width:1170ex;
     color:olive;
     background-color:beige;
+    
+    
     
  }   
 nav {
