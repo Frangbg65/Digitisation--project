@@ -19,7 +19,7 @@ body {
 
 .dropdown button {
   background-color:olive;
-  color: white; /* White text */
+  color: white; 
   padding: 16px;
   font-size: 16px;
   border: none;
@@ -30,17 +30,17 @@ body {
   background-color:white;
   color: olive;
   }
-/* Style for Dropdown Menu (hidden by default) */
+
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: transparent;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
 
-/* Style for Dropdown Menu Links */
+
 .dropdown-content a {
   color: black;
   padding: 12px 16px;
@@ -48,10 +48,10 @@ body {
   display: block;
 }
 
-/* Change color of dropdown links on hover */
+
 .dropdown-content a:hover {background-color: #f1f1f1}
 
-/* Show the dropdown menu on hover */
+
 .dropdown:hover .dropdown-content {
   display: block;
   }
@@ -114,7 +114,7 @@ tr:first-child td {
 }
 
 tr:last-child td {
-  border-bottom-width: 2px; /* Thicker bottom border */
+  border-bottom-width: 2px; 
 }
    
 .wrapper {
