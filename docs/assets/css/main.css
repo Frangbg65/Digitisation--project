@@ -16,6 +16,9 @@ h1 {
 font-size:6ex;
 padding: 5ex;
  }
+ .large-line-height {
+            line-height: 2; 
+        }
    .justify-align {
    text-align:justify;
 }
@@ -26,13 +29,11 @@ padding: 5ex;
  
 }
 
-.justify-align span {
-  display:block;
-   }
+
      
    .right-align {
    text-align:right;
-   width: 90%;
+   width: 75%;
    }
   .left-align {
    text-align:left;
@@ -41,33 +42,40 @@ padding: 5ex;
    .center-align {
    text-align:center;
    }
-   .center-align::after {
-  content: "";
-  display: inline-block;
-  width: 100%;
-}
 
-.center-align span {
-  display: block;
-}
+
+
    
 table {
       border-collapse: collapse;
-      border: 1px solid black;
-      margin:auto;
-    }
- 
-    td {
-      border: 3px solid black !important;
-      padding: 10px !important; 
-     
-    }
+       margin-bottom:15px;      
+}
+ td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+td:first-child {
+  border-left-width: 2px;  
+}
+
+td:last-child {
+  border-right-width: 2px; 
+}
+
+tr:first-child td {
+  border-top-width: 2px;    
+}
+
+tr:last-child td {
+  border-bottom-width: 2px; /* Thicker bottom border */
+}
+   
 .wrapper {
     max-width:1170ex;
     color:olive;
     background-color:beige;
-    margin:0;
-    padding: 0;
+    
     
     
  }   
