@@ -8,7 +8,9 @@ body {
     width: 100%;
     margin: 0;
     padding: 0;
-
+    }
+.indented   {
+    padding-left: 20px;
 }
 ul {
     list-style-type: none; /* Removes the bullet points from the list */
