@@ -139,8 +139,10 @@ h1 {
     text-align: center;
 }
 
-
-
+.justify-align {
+    text-align: justify;
+    
+}
 
 table {
     border-collapse: collapse;
