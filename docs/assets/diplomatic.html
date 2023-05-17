@@ -9,6 +9,7 @@
          crossorigin="anonymous">
       <link rel="stylesheet" href="css/main.css">
       <link rel="stylesheet" href="assets/css/desktop.css">
+      
    </head>
    <body>
       <div class="wrapper">
@@ -19,6 +20,19 @@
          <nav id="sitenav"><a href="index.html">Home</a> | <a href="diplomatic.html">Diplomatic
                Transcription</a> | <a href="reading.html">Reading Text</a> | <a href="toplayer.html"
                >Top Layer</a> | <a href="downloadpage.html">Downloads</a></nav>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search">
+            <button id="searchButton">Search</button>
+        </div>
+         <div id="searchResults"></div>
+            <!-- Add this element where you want the search results to appear -->
+           
+            
+            <script src="script.js"></script>
+            
+         
+         
+         
          <div class="dropdown">
             <button>Select image</button>
             <ul class="dropdown-content">
@@ -62,6 +76,7 @@
                <li><a href="#spine"></a>Spine</li>
             </ul>
          </div>
+        
          <main id="manuscript">
             <div class="container">
                <div class="row">
@@ -78,6 +93,8 @@
                      </article>
                   </div>
                </div>
+               
+                  
                <div class="row">
                   <div class="col-sm">
                      <article class="scan">
@@ -130,6 +147,7 @@
                         >
                      </article>
                   </div>
+                  
                   <div class="col-sm">
                      <article class="transcription">
                         <h3>Transcription</h3>
@@ -154,8 +172,9 @@
                         </p>
                         <div class="left-align">CHALMERS TECKISKA<br /> HÖGSKOLA BIBLIOTEK </div>
                         <div class="right-align">CHALMERSKA<br /> Slöide Skolan </div>
-                     </article>
+                      </article>
                   </div>
+                 
                </div>
                <div class="row">
                   <div class="col-sm">

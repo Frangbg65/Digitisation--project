@@ -1,3 +1,37 @@
+/* Add your existing CSS styles here */
+/* Add your existing CSS styles here */
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+#searchInput {
+  width: 200px;
+  padding: 5px;
+}
+
+#searchButton {
+  padding: 5px 10px;
+  margin-left: 5px;
+  
+}
+
+#searchResults {
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+#searchResults p {
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.highlighted {
+  background-color: yellow;
+  font-weight: bold;
+}
 
 
 body {
