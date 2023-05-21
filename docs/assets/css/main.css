@@ -1,5 +1,4 @@
-/* Add your existing CSS styles here */
-/* Add your existing CSS styles here */
+
 .search-container {
   display: flex;
   justify-content: center;
@@ -68,7 +67,7 @@ body {
     padding-left: 20px;
 }
 ul {
-    list-style-type: none; /* Removes the bullet points from the list */
+    list-style-type: none; 
 }
 
 a.download-btn {
@@ -76,16 +75,16 @@ a.download-btn {
     padding: 10px 20px;
     text-decoration: none;
     font-weight: bold;
-    color: white; /* Text color */
-    background-color: olive; /* Button color */
+    color: white; 
+    background-color: olive; 
     border-radius: 5px;
-    transition: background-color 0.3s ease; /* Adds a transition effect when the button color changes */
+    transition: background-color 0.3s ease; 
 
 
 
 }
 a.download-btn:hover {
-    background-color: transparent; /* Button color when hovered */
+    background-color: transparent; 
     color: olive;
 }
 .dropdown {
@@ -136,7 +135,7 @@ a.download-btn:hover {
 }
 h1,
 h2,
-h3,
+
 h5,
 nav,
 footer {
@@ -146,6 +145,10 @@ h1 {
     font-size: 6ex;
     padding: 5ex;
 }
+h3 {
+    text-align: left;
+   
+   } 
 .large-line-height {
     line-height: 2;
 }
@@ -163,7 +166,7 @@ h1 {
 
 .right-align {
     text-align: right;
-    width: 75%;
+    width: 55%;
 }
 .left-align {
     text-align: left;
@@ -171,16 +174,17 @@ h1 {
 }
 .center-align {
     text-align: center;
+    width: 60%;
 }
 
 .justify-align {
     text-align: justify;
     
 }
-/*This is for the back-to-top buton on the Reading HTML */
+
 #myBtn {
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
+    display: none; 
+    position: fixed; 
     bottom: 20px; /* Place the button at the bottom of the page */
     right: 30px; /* Place the button 30px from the right */
     z-index: 99; /* Make sure it does not overlap */
@@ -257,9 +261,15 @@ h2 {
 h3 {
     font-weight: bold;
     padding: 1vw;
+ 
 
 }
-
+.large-space {
+      margin-bottom: 50% 
+    }
+.space {
+    right: 10px;
+    }
 #details {
     padding: 2vw;
     margin: 1vw;
