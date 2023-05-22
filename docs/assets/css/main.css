@@ -70,7 +70,11 @@ body {
 
 ul {
     list-style-type: none;
+    text-align: right;
+    
+   
 }
+
 
 a.download-btn {
     display: inline-block;
@@ -81,7 +85,9 @@ a.download-btn {
     background-color: olive;
     border-radius: 5px;
     transition: background-color 0.3s ease;
+   
 
+   
 
 
 }
