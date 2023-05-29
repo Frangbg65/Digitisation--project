@@ -40,13 +40,18 @@
             <note>TEI encoding language: English</note>
             <note>Transcribed as part a University assignment, on this first edition only the first
                chapter is included, with scope to digitise the whle book at a later stage.</note>
+            <note type="condition">The book is in realtive good condition considering its age, 
+               the hard covers are worn out and bent in the corners with visible sign of wear and tear. 
+               The writing on the spine is almos impossible to read. On the inside there is what it appears 
+               water or damp damage to some of the pages, but the binding though remainsintact </note>
+            <note type="dimentions">The dimentions fo the book are in cm 128x11x2</note>
 
          </notesStmt>
          <sourceDesc>
             <bibl>
                <extent>Chapter 1 only</extent>
                <author>P.E Cronhielm</author>
-               <dim unit="cm">128x11x2</dim>
+               
             </bibl>
             <biblStruct>
    
@@ -64,6 +69,7 @@
                      <!-- I don't know how to name the apendixes at the end of the book-->
                      <biblScope unit="page" n="84">Eighty four pages</biblScope>
                      <biblScope unit="part">Four foulding out apendixes</biblScope>
+                     
                     
                      
                   </imprint>
